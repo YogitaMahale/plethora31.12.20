@@ -178,3 +178,18 @@ E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\mul
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.dll
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.pdb
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.genruntimeconfig.cache
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Persistence.deps.json
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Persistence.runtimeconfig.json
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Persistence.runtimeconfig.dev.json
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Persistence.dll
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Persistence.pdb
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Entity.dll
+E:\yogita 6.8.19\plathora\plathora.Persistence\bin\Debug\netcoreapp3.1\plathora.Entity.pdb
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.csprojAssemblyReference.cache
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.AssemblyInfo.cs
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.csproj.CopyComplete
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.dll
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.pdb
+E:\yogita 6.8.19\plathora\plathora.Persistence\obj\Debug\netcoreapp3.1\plathora.Persistence.genruntimeconfig.cache

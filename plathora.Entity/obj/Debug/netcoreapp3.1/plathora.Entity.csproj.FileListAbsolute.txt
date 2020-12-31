@@ -105,3 +105,12 @@ E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\mul
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.dll
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.pdb
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.csprojAssemblyReference.cache
+E:\yogita 6.8.19\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.csprojAssemblyReference.cache
+E:\yogita 6.8.19\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.AssemblyInfo.cs
+E:\yogita 6.8.19\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.dll
+E:\yogita 6.8.19\plathora\plathora.Entity\obj\Debug\netcoreapp3.1\plathora.Entity.pdb
+E:\yogita 6.8.19\plathora\plathora.Entity\bin\Debug\netcoreapp3.1\plathora.Entity.deps.json
+E:\yogita 6.8.19\plathora\plathora.Entity\bin\Debug\netcoreapp3.1\plathora.Entity.dll
+E:\yogita 6.8.19\plathora\plathora.Entity\bin\Debug\netcoreapp3.1\plathora.Entity.pdb
