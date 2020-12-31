@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hazLI72oZ+kVeeY7AbmHjyKLvQEGAbYxaMSUKNZVigYZu2hiGS0GcBEX3L6s31ulzX65XZTOdKa65m99Zx9XAw==",
+  "dgSpecHash": "Kq7YMAKHmsWAQE3x224KwNI9M4rdpY89Z/k7p0zOGZTtIRLsxaQl+6bTleEbDxFORcJp/pgm5xsy5N0fMjYgWg==",
   "success": true,
-  "projectFilePath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora\\plathora.csproj",
+  "projectFilePath": "E:\\yogita 6.8.19\\plathora\\plathora\\plathora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

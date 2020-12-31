@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u9MAByYhoZu+ac8YqF5RLZYMzw4rnQ3SHx3WiEJUiRoC3wpA05vqBWNeEmzEBTjUGPU2lX23vqpmWMhydBwrmA==",
+  "dgSpecHash": "T55s9lt2BouqyE++fPfgwQUocmbYnJ8Yz+C3R5LCqhxJui28221FQSw6T/TH14q7fm73sDyal06m7L+6GSFRHA==",
   "success": true,
-  "projectFilePath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Services\\plathora.Services.csproj",
+  "projectFilePath": "E:\\yogita 6.8.19\\plathora\\plathora.Services\\plathora.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

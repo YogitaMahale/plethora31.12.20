@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Utility\\plathora.Utility.csproj": {}
+    "E:\\yogita 6.8.19\\plathora\\plathora.Utility\\plathora.Utility.csproj": {}
   },
   "projects": {
-    "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Utility\\plathora.Utility.csproj": {
+    "E:\\yogita 6.8.19\\plathora\\plathora.Utility\\plathora.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Utility\\plathora.Utility.csproj",
+        "projectUniqueName": "E:\\yogita 6.8.19\\plathora\\plathora.Utility\\plathora.Utility.csproj",
         "projectName": "plathora.Utility",
-        "projectPath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Utility\\plathora.Utility.csproj",
+        "projectPath": "E:\\yogita 6.8.19\\plathora\\plathora.Utility\\plathora.Utility.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Utility\\obj\\",
+        "outputPath": "E:\\yogita 6.8.19\\plathora\\plathora.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

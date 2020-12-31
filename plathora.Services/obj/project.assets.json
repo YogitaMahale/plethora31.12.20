@@ -8150,11 +8150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Services\\plathora.Services.csproj",
+      "projectUniqueName": "E:\\yogita 6.8.19\\plathora\\plathora.Services\\plathora.Services.csproj",
       "projectName": "plathora.Services",
-      "projectPath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Services\\plathora.Services.csproj",
+      "projectPath": "E:\\yogita 6.8.19\\plathora\\plathora.Services\\plathora.Services.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Services\\obj\\",
+      "outputPath": "E:\\yogita 6.8.19\\plathora\\plathora.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8173,11 +8173,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Entity\\plathora.Entity.csproj": {
-              "projectPath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Entity\\plathora.Entity.csproj"
+            "E:\\yogita 6.8.19\\plathora\\plathora.Entity\\plathora.Entity.csproj": {
+              "projectPath": "E:\\yogita 6.8.19\\plathora\\plathora.Entity\\plathora.Entity.csproj"
             },
-            "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Persistence\\plathora.Persistence.csproj": {
-              "projectPath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Persistence\\plathora.Persistence.csproj"
+            "E:\\yogita 6.8.19\\plathora\\plathora.Persistence\\plathora.Persistence.csproj": {
+              "projectPath": "E:\\yogita 6.8.19\\plathora\\plathora.Persistence\\plathora.Persistence.csproj"
             }
           }
         }

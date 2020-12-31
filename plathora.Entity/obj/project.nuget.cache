@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3HyTln0Jyg9e+D4R0WxONcVAfoYYlog6wO5qZpP0/mGHyokCL37KwijWYPcY/yyfP1hag/HKXfpvq2j2UdJqcg==",
+  "dgSpecHash": "58x7brQLRVN91hzKh3qyfBC3Q0soktw9yppPZ6iKyMf88m9gzAnjBLIcGRTHRDW+LYEaAYVdbyUElBqof416iQ==",
   "success": true,
-  "projectFilePath": "E:\\yogita 6.8.19\\asp.net core\\Final backup 4.9.20\\plathoraNewDomain\\15.12.20\\multiple business add\\plathora\\plathora\\plathora.Entity\\plathora.Entity.csproj",
+  "projectFilePath": "E:\\yogita 6.8.19\\plathora\\plathora.Entity\\plathora.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",
