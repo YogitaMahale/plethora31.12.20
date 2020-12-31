@@ -152,3 +152,17 @@ E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\mul
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.csproj.CopyComplete
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.dll
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.pdb
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Services.deps.json
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Services.dll
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Services.pdb
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Entity.dll
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Persistence.dll
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Entity.pdb
+E:\yogita 6.8.19\plathora\plathora.Services\bin\Release\netcoreapp3.1\plathora.Persistence.pdb
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.csprojAssemblyReference.cache
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.AssemblyInfo.cs
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.csproj.CopyComplete
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.dll
+E:\yogita 6.8.19\plathora\plathora.Services\obj\Release\netcoreapp3.1\plathora.Services.pdb

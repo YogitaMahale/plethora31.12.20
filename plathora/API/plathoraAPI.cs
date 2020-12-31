@@ -20,6 +20,7 @@ using Microsoft.Data.SqlClient;
 using SectorRegistrationIndexViewModel = plathora.Models.SectorRegistrationIndexViewModel;
 using System.Runtime.CompilerServices;
 using System.Xml;
+using plathora.Services.Implementation;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -59,7 +60,8 @@ namespace plathora.API
         private readonly IAffilatePackageServices _AffilatePackageServices;
         private readonly IBusinessPackageServices _businessPackageServices;
         private readonly INewsServices _newsServices;
-        public plathoraAPI(ISectorRegistrationServices SectorRegitrationServices, IBusinessRegistrationServieces BusinessRegistrationServieces, IProductMasterServices ProductMasterServices, ICountryRegistrationservices CountryRegistrationservices, IStateRegistrationService StateRegistrationService, ICityRegistrationservices CityRegistrationservices, IProductMasterServices productMasterServices, ISP_Call sP_Call, IVideoServices videoServices, IModuleMasterServices moduleMasterServices, IWebHostEnvironment hostEnvironment, IadvertisementInfoServices advertisementInfoServices, IsocialsServices socialsServices, IsliderServices sliderServices, Iratingsservices ratingsservices, IbusinessratingsServices businessratingsServices, IConfiguration _configuration, ICustomerRegistrationservices customerRegistrationservices, ItblfeedbackServices tblfeedbackServices, IAdvertiseServices advertiseServices, IAffilatePackageServices affilatePackageServices, IMembershipServices membershipServices, IsocialdetailsServices socialdetailsServices, IcommissionServices commissionServices, IAffilatePackageServices AffilatePackageServices, IBusinessPackageServices businessPackageServices, INewsServices newsServices)
+        private readonly IreferfriendSliderServices _referfriendSliderServices;
+        public plathoraAPI(ISectorRegistrationServices SectorRegitrationServices, IBusinessRegistrationServieces BusinessRegistrationServieces, IProductMasterServices ProductMasterServices, ICountryRegistrationservices CountryRegistrationservices, IStateRegistrationService StateRegistrationService, ICityRegistrationservices CityRegistrationservices, IProductMasterServices productMasterServices, ISP_Call sP_Call, IVideoServices videoServices, IModuleMasterServices moduleMasterServices, IWebHostEnvironment hostEnvironment, IadvertisementInfoServices advertisementInfoServices, IsocialsServices socialsServices, IsliderServices sliderServices, Iratingsservices ratingsservices, IbusinessratingsServices businessratingsServices, IConfiguration _configuration, ICustomerRegistrationservices customerRegistrationservices, ItblfeedbackServices tblfeedbackServices, IAdvertiseServices advertiseServices, IAffilatePackageServices affilatePackageServices, IMembershipServices membershipServices, IsocialdetailsServices socialdetailsServices, IcommissionServices commissionServices, IAffilatePackageServices AffilatePackageServices, IBusinessPackageServices businessPackageServices, INewsServices newsServices, IreferfriendSliderServices referfriendSliderServices)
         {
             _SectorRegistrationServices = SectorRegitrationServices;
             _BusinessRegistrationServieces = BusinessRegistrationServieces;
@@ -90,6 +92,7 @@ namespace plathora.API
             _AffilatePackageServices = affilatePackageServices;
             _businessPackageServices = businessPackageServices;
             _newsServices = newsServices;
+            _referfriendSliderServices = referfriendSliderServices;
         }
           
         [HttpGet]
@@ -1456,6 +1459,28 @@ namespace plathora.API
                 }
             }
             catch { return BadRequest(); }
+        }
+
+        [HttpGet]
+        [Route("referfriendSlider")]
+        public async Task<IActionResult> referfriendSlider()
+        {
+            try
+            {
+                var sliderlist = _referfriendSliderServices.GetAll().Where(x => x.isdeleted == false).ToList();
+                //  var categories = await _context.CustomerRegistration.ToListAsync(); 
+                if (sliderlist == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(sliderlist);
+            }
+            catch (Exception obj)
+            {
+                return BadRequest();
+            }
+
         }
     }
 }

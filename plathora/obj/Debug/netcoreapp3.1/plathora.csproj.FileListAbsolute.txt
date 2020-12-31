@@ -4513,7 +4513,6 @@ E:\yogita 6.8.19\plathora\plathora\bin\Debug\netcoreapp3.1\plathora.Persistence.
 E:\yogita 6.8.19\plathora\plathora\bin\Debug\netcoreapp3.1\System.Web.Http.xml
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.csprojAssemblyReference.cache
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.csproj.CoreCompileInputs.cache
-E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.MvcApplicationPartsAssemblyInfo.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.MvcApplicationPartsAssemblyInfo.cache
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.RazorAssemblyInfo.cache
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.RazorAssemblyInfo.cs
@@ -4990,3 +4989,4 @@ E:\yogita 6.8.19\plathora\plathora\bin\Debug\netcoreapp3.1\plathora.Views.pdb
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\staticwebassets\plathora.StaticWebAssets.Manifest.cache
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\staticwebassets\plathora.StaticWebAssets.xml
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.genruntimeconfig.cache
+E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.MvcApplicationPartsAssemblyInfo.cs

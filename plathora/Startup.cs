@@ -98,6 +98,7 @@ namespace plathora
             services.AddScoped<IContactUsServices, ContactUsServices>();
             services.AddScoped<IAboutUsServices, AboutUsServicesServices>();
             services.AddScoped<INewsServices, NewsServices>();
+            services.AddScoped<IreferfriendSliderServices, referfriendSliderServices>();
             services.AddRazorPages().AddRazorRuntimeCompilation();
             services.ConfigureApplicationCookie(options =>
             {

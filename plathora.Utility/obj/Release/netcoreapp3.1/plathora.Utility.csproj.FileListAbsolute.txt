@@ -25,3 +25,12 @@ E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\mul
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.AssemblyInfo.cs
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.dll
 E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\plathora\plathora.Utility\bin\Release\netcoreapp3.1\plathora.Utility.deps.json
+E:\yogita 6.8.19\plathora\plathora.Utility\bin\Release\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\plathora\plathora.Utility\bin\Release\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.csprojAssemblyReference.cache
+E:\yogita 6.8.19\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.AssemblyInfo.cs
+E:\yogita 6.8.19\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\plathora\plathora.Utility\obj\Release\netcoreapp3.1\plathora.Utility.pdb

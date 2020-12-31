@@ -1349,6 +1349,27 @@ namespace plathora.Persistence.Migrations
                     b.ToTable("ratings");
                 });
 
+            modelBuilder.Entity("plathora.Entity.referfriendSlider", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("isactive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isdeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("referfriendSlider");
+                });
+
             modelBuilder.Entity("plathora.Entity.slider", b =>
                 {
                     b.Property<int>("id")
