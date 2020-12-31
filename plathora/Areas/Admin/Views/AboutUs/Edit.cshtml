@@ -1,0 +1,194 @@
+﻿@model plathora.Models.AboutUsViewModel;
+@{
+    ViewBag.Title = "About Us";
+}
+
+    <div class="side-app">
+        @*<div class="page-header">
+            <h4 class="page-title">Tax</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Tax</a></li>
+                <li class="breadcrumb-item active" aria-current="page">New Tax</li>
+            </ol>
+        </div>*@
+        <!-- end row -->
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12">
+                <div class="card m-b-20">
+                    <div class="card-header">
+                        <h3 class="card-title">About us</h3>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" enctype="multipart/form-data" asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-row">
+
+                                
+                                    <label class="form-label" asp-for="PurposeoftheCompany">First Name</label>
+                                    <textarea asp-for="PurposeoftheCompany" class="form-control" rows="20"></textarea>
+                                    
+                                    <span asp-validation-for="PurposeoftheCompany" class="text-danger"></span>
+
+                                
+                            </div>
+                            <div class="form-row">
+                                 
+                                 
+                                    <label class="form-label" asp-for="AboutUsText">Percentage</label>
+                                    <textarea asp-for="AboutUsText" class="form-control" rows="20"></textarea>
+                                 
+                                 
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="img"></label>
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <div class="btn btn-primary btn-icon-text">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                        <input asp-for="img" type="file" value="Upload" />
+                                        <span asp-validation-for="img" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <img src="@Model.imgpath" style="width:300px;height:200px;" />
+                                </div>
+                            </div>
+
+                            <button type="submit" style="margin-right:5px;" class="btn btn-primary "><i class="fa fa-save" style="margin-right:0.7em"></i>Save</button>
+                            <a asp-action="index" class="btn btn-rounded btn-info float-right"><i class="fa fa-backward" style="margin-right:0.7em"></i>Back</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+@*<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index">About Us</a></li>
+                    
+                </ol>
+            </nav><br /><br />
+
+
+
+                        <form name="form1" method="post" enctype="multipart/form-data" asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                            <input type="hidden" asp-for="id" />
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="PurposeoftheCompany"></label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <textarea asp-for="PurposeoftheCompany" class="form-control" rows="20"></textarea>
+                                  
+                                    <span asp-validation-for="PurposeoftheCompany" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="AboutUsText"></label>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <textarea asp-for="AboutUsText" class="form-control" rows="20"></textarea>
+                                 
+                                    <span asp-validation-for="AboutUsText" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="img"></label>
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <div class="btn btn-primary btn-icon-text">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                        <input asp-for="img" type="file" value="Upload" />
+                                        <span asp-validation-for="img" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <img src="@Model.imgpath"  style="width:300px;height:200px;"  />
+                                </div>
+                            </div>
+                           
+                           
+
+                            <div class="form-group">
+
+                                <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Update</button>
+                               
+                                <br />
+                                <br />
+                                <br />
+
+                            </div>
+                        </form>
+        </div>
+    </div>
+</div>*@
+
+@*@section Scripts{
+        @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@
+<script src="~/lib/jquery/dist/jquery.js"></script>
+@*<script type="text/javascript">
+        function DoPostBack() {
+           // alert('df');
+            var select = document.getElementById("countryid");
+            var option = select.options[select.selectedIndex];
+            if (option.value != "Please select") {
+                document.form1.action = "/CityRegistration/EditGetStates";
+                document.form1.submit();
+            }
+        }
+    </script>*@
+
+ 
+<script type="text/javascript">
+    $(function() {
+        $("#countryid").change(function () {
+
+            var url = '@Url.Content("~/")' + 'CityRegistration/getstatebyid';
+            var ddlsource = "#countryid";
+            $.getJSON(url,
+                { id: $(ddlsource).val() },
+                function (data) {
+                //   console.log(data);
+                    var item = '';
+                    $("#stateid").empty();
+                    $.each(data, function (i, row) {
+
+                        item += "<option value='" + row.value + "'>" + row.text + "  </option > ";
+                       // alert(row);
+                    });
+                    $("#stateid").html(item);
+                }
+            )
+        });
+    });
+    //function DoPostBack() {
+    //   // alert('df');
+    //    var select = document.getElementById("countryid");
+    //    var option = select.options[select.selectedIndex];
+    //    if (option.value != "Please select") {
+    //        document.form1.action = "/CityRegistration/GetStates";
+    //        document.form1.submit();
+    //    }
+    //}
+</script>

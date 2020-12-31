@@ -1,0 +1,493 @@
+﻿@model AffiltateRegistrationCreateViewModel;
+@{
+    ViewBag.Title = "New Registration";
+}
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index">Affiltate Registration List</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">New Affiltate Registration</li>
+                </ol>
+            </nav><br /><br />
+
+            @*id, name, profilephoto, mobileno1, mobileno2, emailid1, emailid2, adharcardno, adharcardphoto
+                , pancardno, pancardphoto, password, gender, DOB, createddate*@
+
+        <form method="post" enctype="multipart/form-data" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-row">
+
+
+                <div class="form-group col-md-2">
+                    <label asp-for="name"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="name" class="form-control" placeholder="Enter Name.." />
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-2">
+
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="createddate" style="text-align:right;"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="createddate" class="form-control" />
+                    <span asp-validation-for="createddate" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="profilephoto"></label>
+                </div>
+                <div class="form-group col-md-2">
+                    <div class="btn btn-primary btn-icon-text">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <input asp-for="profilephoto" type="file" value="Upload" />
+                        <span asp-validation-for="profilephoto" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="mobileno1"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="mobileno1" class="form-control" placeholder="Enter Mobile No.." />
+                    <span asp-validation-for="mobileno1" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="mobileno2"></label>
+                </div>
+                <div class="form-check col-md-3">
+                    <input asp-for="mobileno2" class="form-control" placeholder="Enter Mobile No.." />
+                    <span asp-validation-for="mobileno2" class="text-danger"></span>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="emailid1"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="emailid1" class="form-control" placeholder="Enter Email Id.." />
+                    <span asp-validation-for="emailid1" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="emailid2"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="emailid2" class="form-control" placeholder="Enter Email Id.." />
+                    <span asp-validation-for="emailid2" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-2">
+                    <label asp-for="password"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="password" class="form-control" placeholder="Enter Password.." />
+                    <span asp-validation-for="password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="adharcardno"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="adharcardno" class="form-control" placeholder="Enter Adhar No.." />
+                    <span asp-validation-for="adharcardno" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="adharcardphoto"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="btn btn-primary btn-icon-text">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <input asp-for="adharcardphoto" type="file" value="Upload" />
+                        <span asp-validation-for="adharcardphoto" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="pancardno"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="pancardno" class="form-control" placeholder="Enter Pancard No.." />
+                    <span asp-validation-for="pancardno" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="pancardphoto"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="btn btn-primary btn-icon-text">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <input asp-for="pancardphoto" type="file" value="Upload" />
+                        <span asp-validation-for="pancardphoto" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="gender"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    @*<select asp-for="gender" class="form-control" asp-items="Html.GetEnumSelectList<plathora.Entity.Gender>()"></select>*@
+                    <select asp-for="gender" class="form-control">
+
+                        <option value="Select" selected>-- Select --</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <span asp-validation-for="gender" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-2">
+                    <label asp-for="DOB"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="DOB" class="form-control" />
+                    <span asp-validation-for="DOB" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div style="text-align:center;">
+                <b>
+                    <h1 style="color:#c60b4a;">Address Information</h1>
+                </b>
+
+            </div> <br />
+            <br />
+
+
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="house"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="house" class="form-control" placeholder="Enter house.." />
+                    <span asp-validation-for="house" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="landmark"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="landmark" class="form-control" placeholder="Enter Landmark.." />
+                    <span asp-validation-for="landmark" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="street"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="street" class="form-control" placeholder="Enter Street.." />
+                    <span asp-validation-for="street" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="zipcode"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="zipcode" class="form-control" placeholder="Enter zipcode.." />
+                    <span asp-validation-for="zipcode" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-1">
+                    <label asp-for="countryid"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <select name="countryid" id="countryid" asp-for="countryid" class="form-control"
+                            asp-items="@(new SelectList(ViewBag.Countries,"id","countryname"))">
+
+
+                        <option>--- Select  ---</option>
+                    </select>
+                    <span asp-validation-for="countryid" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-1">
+                    <label asp-for="stateid"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <select name="stateid" id="stateid" asp-for="stateid" class="form-control"
+                            asp-items="@(new SelectList(String.Empty,"id","StateName"))">
+
+
+                        <option>--- Select  ---</option>
+                    </select>
+
+
+
+                    <span asp-validation-for="stateid" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-1">
+                    <label asp-for="cityid"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <select name="cityid" id="cityid" asp-for="cityid" class="form-control"
+                            asp-items="@(new SelectList(String.Empty,"id","cityName"))">
+
+
+                        <option>--- Select  ---</option>
+                    </select>
+                    <span asp-validation-for="cityid" class="text-danger"></span>
+                </div>
+            </div>
+            <div style="text-align:center;">
+                <b>
+                    <h1 style="color:#c60b4a;">Company Information</h1>
+                </b>
+
+            </div> <br />
+            <br />
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="companyName"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="companyName" class="form-control" placeholder="Enter companyName.." />
+                    <span asp-validation-for="companyName" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="designation"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="designation" class="form-control" placeholder="Enter designation.." />
+                    <span asp-validation-for="designation" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="gstno"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="gstno" class="form-control" placeholder="Enter gstno.." />
+                    <span asp-validation-for="gstno" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="Website"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="Website" class="form-control" placeholder="Enter Website.." />
+                    <span asp-validation-for="Website" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div style="text-align:center;">
+                <b>
+                    <h1 style="color:#c60b4a;">Bank Information</h1>
+                </b>
+
+            </div> <br />
+            <br />
+            @*bankname, accountname, accountno, ifsccode, branch,
+        passbookphoto, Membershipid, amount*@
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="bankname"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="bankname" class="form-control" placeholder="Enter bankname.." />
+                    <span asp-validation-for="bankname" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="accountname"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="accountname" class="form-control" placeholder="Enter accountname.." />
+                    <span asp-validation-for="accountname" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="accountno"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="accountno" class="form-control" placeholder="Enter accountno.." />
+                    <span asp-validation-for="accountno" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="ifsccode"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="ifsccode" class="form-control" placeholder="Enter ifsccode.." />
+                    <span asp-validation-for="ifsccode" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="branch"></label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input asp-for="branch" class="form-control" placeholder="Enter branch.." />
+                    <span asp-validation-for="branch" class="text-danger"></span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="form-group col-md-1">
+                    <label asp-for="passbookphoto"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="btn btn-primary btn-icon-text">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <input asp-for="passbookphoto" type="file" value="Upload" />
+                        <span asp-validation-for="passbookphoto" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;">
+                <b>
+                    <h1 style="color:#c60b4a;">Affilate Member ship</h1>
+                </b>
+
+            </div> <br />
+            <br />
+            <div class="form-row">
+                <div class="form-group col-md-1">
+                    <label asp-for="Membershipid"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <select name="Membershipid" id="Membershipid" asp-for="Membershipid" class="form-control"
+                            asp-items="@(new SelectList(ViewBag.membershiplist,"id","membershipName"))">
+
+
+                        <option>--- Select  ---</option>
+                    </select>
+                    <span asp-validation-for="Membershipid" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                   
+                </div>
+                <div class="form-group col-md-1">
+                    <label asp-for="amount"></label>
+                </div>
+                <div class="form-group col-md-4">
+                    <input asp-for="amount" class="form-control" disabled style="color:black;" placeholder="Enter amount.." />
+                    <span asp-validation-for="amount" class="text-danger"></span>
+                </div>
+
+            </div>
+            @*<div class="form-row">
+               
+               
+                <div class="form-group col-md-2">
+                    <label asp-for="Description"></label>
+                </div>
+                <div class="form-group col-md-10">
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                    
+                </div>
+
+            </div>*@
+            <div class="form-group">
+
+                <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Save</button>
+                <a asp-action="index" class="btn btn-rounded btn-success float-right"><i class="fas fa-caret-square-left" style="margin-right:0.7em"></i>Back</a>
+                <br />
+                <br />
+                <br />
+
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $("#countryid").change(function () {
+
+            var url = '@Url.Content("~/")' + 'CityRegistration/getstatebyid';
+            var ddlsource = "#countryid";
+            $.getJSON(url,
+                { id: $(ddlsource).val() },
+                function (data) {
+                //   console.log(data);
+                    var item = '';
+                    $("#stateid").empty();
+                    $("#cityid").empty();
+                    $.each(data, function (i, row) {
+
+                        item += "<option value='" + row.value + "'>" + row.text + "  </option > ";
+                       // alert(row);
+                    });
+                    $("#stateid").html(item);
+                }
+            )
+        });
+
+        $("#stateid").change(function () {
+
+            var url = '@Url.Content("~/")' + 'Taluka/getCitybyStateid';
+            var ddlsource1 = "#stateid";
+            $.getJSON(url,
+                { stateid: $(ddlsource1).val() },
+                function (data) {
+                //   console.log(data);
+                    var item = '';
+                    $("#cityid").empty();
+                    $.each(data, function (i, row) {
+
+                        item += "<option value='" + row.value + "'>" + row.text + "  </option > ";
+                       // alert(row);
+                    });
+                    $("#cityid").html(item);
+                }
+            )
+        });
+        $("#Membershipid").change(function () {
+
+            var url = '@Url.Content("~/")' + 'AffiltateRegistration/getpackageamtbymembershipid';
+            var ddlsource1 = "#Membershipid";
+            $.getJSON(url,
+                { membershipid: $(ddlsource1).val() },
+                function (response) {
+                    if (response != null) {
+                        $('#amount').val(response.amount);
+                      // alert(response.Description);
+                      //  $('#Description').val(response.Description);
+                        
+                        //alert(response.amount);
+                    } else {
+                        alert("Something went wrong");
+                    }  
+                //   console.log(data);
+                    //var item = '';
+                    //$("#amount").empty();
+                    //$.each(data, function (i, row) {
+                       
+                    //    item += "<option value='" + row.value + "'>" + row.text + "  </option > ";
+                    //   // alert(row);
+                    //});
+                    //$("#cityid").html(item);
+                }
+            )
+        });
+    });
+
+</script>

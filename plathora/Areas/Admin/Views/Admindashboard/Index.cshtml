@@ -1,0 +1,463 @@
+﻿@model plathora.Models.Dtos.WebsiteDashboard
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="side-app">
+    <div class="page-header">
+        <h4 class="page-title">Dashboard  </h4>
+        @*<ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Dashboard 01</li>
+        </ol>*@
+    </div>
+
+    <div class="row row-cards">
+        <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+                <div class="card-body iconfont text-center">
+                    <h5 class="text-muted">Register Customer</h5>
+                    <h1 class="mb-2 font-weight-semibold">@Model.objWebsiteDashboardcnt.CustomerCnt</h1>
+
+                    <p><span class="text-green"><i class="fa fa-circle text-green"> </i> @Model.objWebsiteDashboardcnt.CustomerOnlineCnt Online</span> <span class="text-red"><i class="fa fa-circle text-red"> </i> @Model.objWebsiteDashboardcnt.CustomerOfflineCount Offline</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+                <div class="card-body iconfont text-center">
+                    <h5 class="text-muted">Register Affilate </h5>
+                    <h1 class="mb-2 font-weight-semibold">@Model.objWebsiteDashboardcnt.AffilateCnt</h1>
+                    <p><span class="text-green"><i class="fa fa-circle text-green"> </i> @Model.objWebsiteDashboardcnt.AffilateOnlineCnt Online</span> <span class="text-red"><i class="fa fa-circle text-red"> </i> @Model.objWebsiteDashboardcnt.AffilateOfflineCount Offline</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+                <div class="card-body iconfont text-center">
+                    <h5 class="text-muted">Register Business</h5>
+                    <h1 class="mb-2 font-weight-semibold">@Model.objWebsiteDashboardcnt.totalbusinessCount</h1>
+                    @*<p><span class="text-red"><i class="fa fa-arrow-down text-red"></i> 4 lead less</span> than last week</p>*@
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+                <div class="card-body iconfont text-center">
+                    <h5 class="text-muted">Total Business</h5>
+                    <h1 class="mb-2 font-weight-semibold">@Model.objWebsiteDashboardcnt.totalbusiness </h1>
+                    @*<p><span class="text-green"><i class="fa fa-arrow-up text-green"></i> 5.25% increase</span> last month</p>*@
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-deck">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Registration Overview</h3>
+                </div>
+                <div class="card-body">
+                    <div class="chart-wrapper">
+                        <canvas id="sales-status" class="h-350"></canvas>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="col-xl-4 col-lg-12 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Browser Usage</h3>
+                </div>
+                <div class="card-body p-0">
+                    <div class="browser-stats">
+                        <div class="d-flex align-items-center border-bottom px-4 py-3">
+                            <div class="d-flex support-service2">
+                                <i class="fa fa-chrome bg-secondary text-white mr-2"></i>
+                                <p class="fs-16 mt-3 mb-0">Chrome</p>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="d-flex">
+                                    <span class="mr-4 mt-1 fs-16">35,502</span>
+                                    <span class="text-success fs-15 mt-1"><i class="fe fe-arrow-up"></i>12.75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center border-bottom px-4 py-3">
+                            <div class="d-flex support-service2">
+                                <i class="fa fa-opera text-white bg-danger mr-2"></i>
+                                <p class="fs-16 mt-3 mb-0">Opera</p>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="d-flex">
+                                    <span class="mr-4 mt-1 fs-16">12,563</span>
+                                    <span class="text-danger mt-1"><i class="fe fe-arrow-down"></i>15.12%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center border-bottom px-4 py-3">
+                            <div class="d-flex support-service2">
+                                <i class="fa fa-edge text-white bg-info mr-2"></i>
+                                <p class="fs-16 mt-3 mb-0">Internet Explorer</p>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="d-flex">
+                                    <span class="mr-4 mt-1">25,364</span>
+                                    <span class="text-success mt-1"><i class="fe fe-arrow-up"></i>24.37%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center border-bottom px-4 py-3">
+                            <div class="d-flex support-service2">
+                                <i class="fa fa-firefox text-white bg-primary mr-2"></i>
+                                <p class="fs-16 mt-3 mb-0">Firefox</p>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="d-flex">
+                                    <span class="mr-4 mt-1">14,635</span>
+                                    <span class="text-success mt-1"><i class="fe fe-arrow-up"></i>15,63%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center border-bottom px-4 py-3">
+                            <div class="d-flex support-service2">
+                                <i class="fa fa-android text-white bg-success mr-2"></i>
+                                <p class="fs-16 mt-3 mb-0">Android</p>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="d-flex">
+                                    <span class="mr-4 mt-1">15,453</span>
+                                    <span class="text-danger mt-1"><i class="fe fe-arrow-down"></i>23.70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center px-4 py-3">
+                            <div class="d-flex support-service2">
+                                <i class="fa fa-edge text-white bg-indigo mr-2"></i>
+                                <p class="fs-16 mt-3 mb-0">Edge</p>
+                            </div>
+                            <div class="ml-auto">
+                                <div class="d-flex">
+                                    <span class="mr-4 mt-1">35,657</span>
+                                    <span class="text-danger mt-1"><i class="fe fe-arrow-down"></i>12.54%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+    </div>
+
+    <div class="row" style="display:none;">
+        <div class="col-xl-4 col-lg-12 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Customer Satisfaction</h3>
+                </div>
+                <div class="card-body">
+                    <div class="chats-wrap">
+                        <div class="chat-details p-2 px-0">
+                            <h6 class="mb-0">
+                                <span class="font-weight-normal">Good</span>
+                                <span class="float-right p-1">78%</span>
+                            </h6>
+                            <div class="progress progress-sm mt-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-35"></div>
+                            </div>
+                        </div>
+                        <div class="chat-details p-2 px-0">
+                            <h6 class="mb-0">
+                                <span class="font-weight-normal">Satisfied</span>
+                                <span class="float-right p-1">82%</span>
+                            </h6>
+                            <div class="progress progress-sm mt-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-75"></div>
+                            </div>
+                        </div>
+                        <div class="chat-details p-2 px-0">
+                            <h6 class="mb-0">
+                                <span class="font-weight-normal">Excellent</span>
+                                <span class="float-right p-1">89%</span>
+                            </h6>
+                            <div class="progress progress-sm mt-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary w-65"></div>
+                            </div>
+                        </div>
+                        <div class="chat-details p-2 px-0">
+                            <h6 class="mb-0">
+                                <span class="font-weight-normal">Average</span>
+                                <span class="float-right p-1">40%</span>
+                            </h6>
+                            <div class="progress progress-sm mt-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning w-80"></div>
+                            </div>
+                        </div>
+                        <div class="chat-details p-2 px-0">
+                            <h6 class="mb-0">
+                                <span class="font-weight-normal">Unsatisfied</span>
+                                <span class="float-right p-1">20%</span>
+                            </h6>
+                            <div class="progress progress-sm mt-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info w-80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Developing Bizdire</div>
+                </div>
+                <div class="card-body">
+                    <div class="ibox teams mb-30 bg-boxshadow">
+                        <!-- Ibox Content -->
+                        <div class="ibox-content teams">
+                            <!-- Team Board Details -->
+                            <div class="teams-board-details">
+                                <h4 class="font-weight-semibold">About Bizdire</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit quisquam veniam excepturi. Contrary to popular belief, Lorem Ipsum is not simply random text classical Latin </p>
+                            </div>
+                            <!-- Progress Details -->
+                            <span class="font-weight-semibold">Status of Listings:</span>
+                            <div class="progress-details-teams mt-2 mb-4">
+                                <div class="stat-percent mb-2 fs-20 font-weight-semibold">58%</div>
+                                <div class="progress progress-md">
+                                    <div class="progress-bar bg-primary w-50" role="progressbar"></div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <div class="teams-rank text-muted">Total Listings</div>
+                                    <span class="fs-26 font-weight-semibold">6,85,965</span>
+                                </div>
+                                <div class="col-4">
+                                    <div class="teams-rank text-muted">Featured Listings</div>
+                                    <span class="fs-26 font-weight-semibold">6,758</span>
+                                </div>
+                                <div class="col-4">
+                                    <div class="teams-rank text-muted">Expired Listings</div>
+                                    <span class="fs-26 font-weight-semibold">3,542</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Register Customer List</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive border-top">
+                        <table id="tblData" class="table table-bordered table-hover mb-0 text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Unique ID</th>
+                                    <th>First Name</th>
+                                    <th>Middle Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                    <th>Phone No.</th>
+
+                                </tr>
+                            </thead>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Register Affilate List</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive border-top">
+                        <table id="tblDataAffilate" class="table table-bordered table-hover mb-0 text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Unique ID</th>
+                                    <th>First Name</th>
+                                    <th>Middle Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                    <th>Phone No.</th>
+
+                                </tr>
+                            </thead>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script type="text/javascript">
+
+$(function (e) {
+	'use strict'
+	 
+
+
+	//var Customermarkers = $('#' + '@(ViewBag.Customermarkers)').val();
+	//var Affilatemarkers = $('#' + '@(ViewBag.Affilatemarkers)').val();
+	//var Labelsmarkers = $('#' + '@(ViewBag.Labelsmarkers)').val();
+	//alert(Customermarkers);
+
+	var Customermarkers = @Html.Raw(ViewBag.Customermarkers);
+	var Affilatemarkers = @Html.Raw(ViewBag.Affilatemarkers);
+	var Labelsmarkers = @Html.Raw(ViewBag.Labelsmarkers);
+	/* chartjs (#sales-status) */
+
+	 
+
+	var ctx = $('#sales-status');
+	var myChart = new Chart(ctx, {
+		type: 'bar',
+		data: {
+			//labels: ["P1-6", "p1-8", "p2-6"],
+            labels: Labelsmarkers,
+			type: 'bar',
+			datasets: [{
+				label: "Customer Register",
+				//data: [20000, 25000,50000],
+                data: Customermarkers,
+				backgroundColor: '#00148e',
+				borderColor: '#00148e',
+				borderWidth: 3,
+				pointStyle: 'circle',
+				pointRadius: 5,
+				pointBorderColor: 'transparent',
+				pointBackgroundColor: '#00148e',
+			}, {
+				label: "Affilate Register",
+				//data: [25000, 32000,45000],
+                    data: Affilatemarkers,
+				backgroundColor: '#ff8819',
+				borderColor: '#ff8819',
+				borderWidth: 3,
+				pointStyle: 'circle',
+				pointRadius: 5,
+				pointBorderColor: 'transparent',
+				pointBackgroundColor: '#ff8819',
+			}]
+		},
+		options: {
+			responsive: true,
+			maintainAspectRatio: false,
+			tooltips: {
+				mode: 'index',
+				titleFontSize: 12,
+				titleFontColor: '#000',
+				bodyFontColor: '#000',
+				backgroundColor: '#fff',
+				cornerRadius: 3,
+				intersect: false,
+			},
+			legend: {
+				display: true,
+				labels: {
+					usePointStyle: false,
+				},
+			},
+			scales: {
+				xAxes: [{
+					ticks: {
+						fontColor: "#605e7e",
+					},
+					display: true,
+					gridLines: {
+						display: true,
+						color: 'rgba(96, 94, 126, 0.1)',
+						drawBorder: false
+					},
+					scaleLabel: {
+						display: false,
+						labelString: 'Month',
+						fontColor: 'transparent'
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						fontColor: "#605e7e",
+					},
+					display: true,
+					gridLines: {
+						display: true,
+						color: 'rgba(96, 94, 126, 0.1)',
+						drawBorder: false
+					},
+					scaleLabel: {
+						display: false,
+						labelString: 'sales',
+						fontColor: 'transparent'
+					}
+				}]
+			},
+			title: {
+				display: false,
+				text: 'Normal Legend'
+			}
+		}
+	});
+	/* chartjs (#sales-status) closed */
+
+});
+
+    </script>
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>*@
+    <script src="~/js/dashboardJS.js"></script>
+     
+    @*<script src="~/Bizdire/LTR/assets/js/index1.js"></script>*@
+    @*<script type = "text/javascript" >
+              $(document).ready(function () {
+                $.ajax({
+                type: "GET",
+                    url: "/Admin/Admindashboard/BarChart",/*/ Admin / User / GetALL*/
+                data: {},
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(response) {
+                successFunc(response);
+                },
+                });
+
+                function successFunc(jsondata) {
+                var chart = c3.generate({
+                bindto: '#Barchart',
+                data: {
+                json: jsondata,
+                keys: {
+                    value: ['customer', 'affilate'],
+                },
+                    columns: ['customer', 'affilate'],
+                type: 'bar',
+                groups: [
+                    ['customer', 'affilate']
+                ]
+                },
+                color: {
+                pattern: ['#1f77b4', '#aec7e8', '#ff7f0e', '#ffbb78', '#2ca02c', '#98df8a', '#d62728', '#ff9896', '#9467bd', '#c5b0d5', '#8c564b', '#c49c94', '#e377c2', '#f7b6d2', '#7f7f7f', '#c7c7c7', '#bcbd22', '#dbdb8d', '#17becf', '#9edae5']
+                },
+                });
+                }
+        });
+        </script>*@
+}
+
+
+

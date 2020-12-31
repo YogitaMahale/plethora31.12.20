@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IadvertiseDetailsServices.cs" />
+    <Compile Remove="IadvertisementDetailsServices.cs" />
+    <Compile Remove="IadvertisementtestServices.cs" />
+    <Compile Remove="IApplicationUserRepository.cs" />
+    <Compile Remove="Implementation\advertiseDetailsServices.cs" />
+    <Compile Remove="Implementation\advertisementDetailsServices.cs" />
+    <Compile Remove="Implementation\advertisementtestServices.cs" />
+    <Compile Remove="Implementation\ApplicationUserRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\plathora.Entity\plathora.Entity.csproj" />
+    <ProjectReference Include="..\plathora.Persistence\plathora.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

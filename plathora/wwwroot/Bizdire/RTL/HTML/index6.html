@@ -1,0 +1,1396 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+	<head>
+		<!-- META DATA -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Bizdire - Business Directory and classifieds premium html5 CSS template">
+		<meta name="author" content="Spruko Technologies Private Limited">
+		<meta name="keywords" content="business directory website,online business directory website,directory listing sites,bootstrap form template,bootstrap templates,responsive web design,bootstrap website templates,business directory,business directory template,business listing,buy web templates,directory,directory html template,directory listing html template,directory website template,html list template,html template,html5 responsive template,html5 template,local business directory,local business listing,online business directory,online directory,premium,premium bootstrap templates,small business directory,classified,Premium business directory Templates,Directory & Listing HTML Template,business listing websites">
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+		<!-- Title -->
+		<title>Bizdire - Business Directory and classifieds premium html5 CSS template</title>
+
+		<!-- Bootstrap Css -->
+		<link href="../assets/plugins/bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Dashboard Css -->
+		<link href="../assets/css/style-rtl.css" rel="stylesheet" />
+
+		<!-- Font-awesome  Css -->
+		<link href="../assets/css/icons.css" rel="stylesheet"/>
+
+		<!--Select2 Plugin -->
+		<link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+		<!-- Cookie css -->
+		<link href="../assets/plugins/cookie/cookie.css" rel="stylesheet">
+
+		<!-- Auto Complete css -->
+		<link href="../assets/plugins/autocomplete/jquery.autocomplete.css" rel="stylesheet">
+
+		<!-- Owl Theme css-->
+		<link href="../assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+		<!-- Custom scroll bar css-->
+		<link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+		<!-- Color-Skins -->
+		<link id="theme" href="../assets/color-skins/color1.css"  rel="stylesheet"/>
+
+	</head>
+	<body>
+
+		<!--Loader-->
+		<div id="global-loader">
+			<img src="../assets/images/products/products/loader.png" class="loader-img floating" alt="">
+		</div>
+
+		<!--Topbar-->
+		<div class="header-main">
+
+			<!-- Mobile Header -->
+			<div class="sticky">
+				<div class="horizontal-header clearfix ">
+					<div class="container">
+						<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+						<span class="smllogo"><a href="index.html" class="d-flex logo-height logo-svg">
+							<svg style="enable-background:new 0 0 512 512;" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+								<g>
+									<g>
+										<g>
+											<path d="M268.673,266.152c10.947-1.477,18.624-11.549,17.146-22.495c-1.478-10.947-11.55-18.62-22.495-17.146 c-2.41,0.325-4.875,0.49-7.325,0.49c-29.775,0-54-24.225-54-54c0-29.775,24.225-54,54-54c29.775,0,54,24.225,54,54 c0,2.949-0.238,5.903-0.707,8.781c-1.777,10.902,5.62,21.181,16.521,22.958c10.914,1.776,21.181-5.62,22.958-16.521 c0.816-5,1.229-10.12,1.229-15.219c0-51.832-42.168-94-94-94c-51.832,0-94,42.168-94,94c0,51.832,42.168,94,94,94 C260.233,267,264.498,266.714,268.673,266.152z"></path>
+											<path d="M438.765,396.608c-15.385-8.07-36.508-14.869-62.782-20.208c-10.83-2.197-21.382,4.794-23.582,15.617 c-2.199,10.824,4.793,21.383,15.617,23.582c40.529,8.235,57.145,18.119,61.938,22.912c-3.531,3.538-15.338,12.42-50.025,20.77 C345.858,467.483,301.847,472,256,472s-89.858-4.517-123.93-12.719c-34.688-8.35-46.494-17.231-50.025-20.77 c4.793-4.793,21.408-14.677,61.938-22.912c10.824-2.199,17.816-12.758,15.617-23.582c-2.199-10.824-12.759-17.813-23.582-15.617 c-26.274,5.339-47.397,12.138-62.782,20.208C51.846,407.828,41,421.938,41,438.544c0,24.814,24.166,44.021,71.826,57.087 C151.331,506.187,202.178,512,256,512s104.669-5.813,143.174-16.369C446.834,482.565,471,463.358,471,438.544 C471,421.938,460.154,407.828,438.765,396.608z"></path>
+											<path d="M239.094,422.686C242.759,428.484,249.141,432,256,432s13.241-3.516,16.906-9.315 c18.337-29.01,42.204-54.457,65.286-79.064c45.101-48.082,91.737-97.802,91.808-171.645 c-0.054-46.29-18.244-89.628-51.221-122.032C346.002,17.737,302.397,0,256,0c-46.369,0-89.818,17.76-122.343,50.008 C101.044,82.344,83.054,125.661,83,172.02c0.071,73.92,46.48,123.728,91.361,171.897 C197.205,368.434,220.826,393.785,239.094,422.686z M256,40c73.804,0,133.916,59.226,134,131.981 c-0.055,57.999-37.558,97.98-80.982,144.275c-17.974,19.163-36.399,38.805-53.006,60.732 c-16.449-21.772-34.641-41.296-52.385-60.34c-43.233-46.399-80.57-86.472-80.627-144.625C123.085,97.991,181.506,40,256,40z"></path>
+										</g>
+									</g>
+								</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+							</svg><span class="font-weight-semibold mb-0 fs-26 text-dark pl-5">bizdire</span></a>
+						</span>
+						<a href="ad-list.html" class="callusbtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /Mobile Header -->
+
+			<div class="horizontal-main  header-style-04 clearfix">
+				<div class="horizontal-mainwrapper container clearfix">
+					<div class="desktoplogo">
+						<a href="index.html"><img src="../assets/images/brand/logo1.png" alt=""></a>
+					</div>
+					<div class="desktoplogo-1">
+						<a href="index.html"  class="d-flex logo-height logo-svg">
+						<svg style="enable-background:new 0 0 512 512;" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+							<g>
+								<g>
+									<g>
+										<path d="M268.673,266.152c10.947-1.477,18.624-11.549,17.146-22.495c-1.478-10.947-11.55-18.62-22.495-17.146 c-2.41,0.325-4.875,0.49-7.325,0.49c-29.775,0-54-24.225-54-54c0-29.775,24.225-54,54-54c29.775,0,54,24.225,54,54 c0,2.949-0.238,5.903-0.707,8.781c-1.777,10.902,5.62,21.181,16.521,22.958c10.914,1.776,21.181-5.62,22.958-16.521 c0.816-5,1.229-10.12,1.229-15.219c0-51.832-42.168-94-94-94c-51.832,0-94,42.168-94,94c0,51.832,42.168,94,94,94 C260.233,267,264.498,266.714,268.673,266.152z"></path>
+										<path d="M438.765,396.608c-15.385-8.07-36.508-14.869-62.782-20.208c-10.83-2.197-21.382,4.794-23.582,15.617 c-2.199,10.824,4.793,21.383,15.617,23.582c40.529,8.235,57.145,18.119,61.938,22.912c-3.531,3.538-15.338,12.42-50.025,20.77 C345.858,467.483,301.847,472,256,472s-89.858-4.517-123.93-12.719c-34.688-8.35-46.494-17.231-50.025-20.77 c4.793-4.793,21.408-14.677,61.938-22.912c10.824-2.199,17.816-12.758,15.617-23.582c-2.199-10.824-12.759-17.813-23.582-15.617 c-26.274,5.339-47.397,12.138-62.782,20.208C51.846,407.828,41,421.938,41,438.544c0,24.814,24.166,44.021,71.826,57.087 C151.331,506.187,202.178,512,256,512s104.669-5.813,143.174-16.369C446.834,482.565,471,463.358,471,438.544 C471,421.938,460.154,407.828,438.765,396.608z"></path>
+										<path d="M239.094,422.686C242.759,428.484,249.141,432,256,432s13.241-3.516,16.906-9.315 c18.337-29.01,42.204-54.457,65.286-79.064c45.101-48.082,91.737-97.802,91.808-171.645 c-0.054-46.29-18.244-89.628-51.221-122.032C346.002,17.737,302.397,0,256,0c-46.369,0-89.818,17.76-122.343,50.008 C101.044,82.344,83.054,125.661,83,172.02c0.071,73.92,46.48,123.728,91.361,171.897 C197.205,368.434,220.826,393.785,239.094,422.686z M256,40c73.804,0,133.916,59.226,134,131.981 c-0.055,57.999-37.558,97.98-80.982,144.275c-17.974,19.163-36.399,38.805-53.006,60.732 c-16.449-21.772-34.641-41.296-52.385-60.34c-43.233-46.399-80.57-86.472-80.627-144.625C123.085,97.991,181.506,40,256,40z"></path>
+									</g>
+								</g>
+							</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+						</svg><span class="font-weight-semibold mb-0 fs-26 text-dark pl-5">bizdire</span></a>
+					</div>
+					<!--Nav-->
+					<nav class="horizontalMenu clearfix d-md-flex">
+						<ul class="horizontalMenu-list">
+							<li class="li-list"><a href="#">Home <span class="fa fa-caret-down m-0"></span></a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home Style</a></li>
+									<li><a href="index2.html">Home Style 02</a></li>
+									<li><a href="index3.html">Home Style 03</a></li>
+									<li><a href="index4.html">Home Style 04</a></li>
+									<li><a href="index5.html">Home Style 05</a></li>
+									<li><a href="index6.html">Home Style 06</a></li>
+									<li><a href="intro-page.html">Home Intro Page</a></li>
+									<li><a href="popup-login.html">Home Pop-up login</a></li>
+									<li><a href="banner.html">Banners</a></li>
+									<li><a href="index-listing.html">Home Listing</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">About Us </a></li>
+							<li class="li-list"><a href="#">Widgets <span class="fa fa-caret-down m-0"></span></a>
+								<ul class="sub-menu">
+									<li><a href="widgets.html">Card Widgets</a></li>
+									<li><a href="widgets-carousel.html">Carousel Widgets</a></li>
+									<li><a href="widgets-verticalscroll.html">Vertical Scroll Widgets</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Pages <span class="fa fa-caret-down m-0"></span></a>
+								<div class="horizontal-megamenu clearfix">
+									<div class="container">
+										<div class="megamenu-content">
+											<div class="row">
+												<ul class="col link-list">
+													<li class="title">Listing pages</li>
+													<li><a href="business-list.html">Business List</a></li>
+													<li><a href="business-list2.html">Business List 02</a></li>
+													<li><a href="business-list3.html">Business List 03</a></li>
+													<li><a href="business-list-right.html">Business List Right</a></li>
+													<li><a href="business-list-map.html">Business Map list</a></li>
+													<li><a href="business-list-map2.html">Business Map list 02</a></li>
+													<li><a href="business-list-map3.html">Business Map style 03</a></li>
+
+													<li class="title mb-0 mt-3"> Add Post</li>
+													<li><a href="edit-list.html">Edit-list</a></li>
+													<li><a href="edit-list2.html">Edit-list 02</a></li>
+													<li><a href="ad-list.html">Ad List</a></li>
+													<li><a href="ad-list2.html">Ad List2</a></li>
+												</ul>
+												<ul class="col link-list">
+													<li class="title">Categories & My Dashboard</li>
+													<li><a href="categories.html">Categories</a></li>
+													<li><a href="categories2.html">Categories 02</a></li>
+													<li><a href="mydash.html">My Dashboard</a></li>
+													<li><a href="mylistings.html">Listings</a></li>
+													<li><a href="mylistings-2.html">Listings 02</a></li>
+													<li><a href="myfavorite.html">Favorite Listings</a></li>
+													<li><a href="myfavorite-2.html">Favorite Listings 02</a></li>
+													<li><a href="manged.html">Manged Listings</a></li>
+													<li><a href="manged-2.html">Manged Listings 02</a></li>
+													<li><a href="payments.html">Payments</a></li>
+													<li><a href="orders.html"> Orders</a></li>
+													<li><a href="settings.html"> Settings</a></li>
+													<li><a href="tips.html">Tips</a></li>
+												</ul>
+												<ul class="col link-list">
+													<li class="title">User Pages</li>
+													<li><a href="userprofile.html"> User Profile</a></li>
+													<li><a href="personal-blog.html">Personal Profile</a></li>
+													<li><a href="pricing.html">Pricing</a></li>
+													<li><a href="typography.html">Typography</a></li>
+													<li><a href="inovice.html">Invoice</a></li>
+													<li><a href="underconstruction.html">Under Constructions</a></li>
+													<li><a href="404.html">404</a></li>
+													<li><a href="register.html">Register</a></li>
+													<li><a href="login.html">Login</a></li>
+													<li><a href="login-2.html">Login 02</a></li>
+													<li><a href="forgot.html">Forgot Password</a></li>
+													<li><a href="lockscreen.html">Lock Screen</a></li>
+													<li><a href="faq.html">Faq</a></li>
+												</ul>
+												<ul class="col link-list">
+													<li class="title">Headers Styles</li>
+													<li><a href="header-style1.html">Header Style 01</a></li>
+													<li><a href="header-style2.html">Header Style 02</a></li>
+													<li><a href="header-style3.html">Header Style 03</a></li>
+													<li><a href="header-style4.html">Header Style 04</a></li>
+													<li><a href="header-style5.html">Header Style 05</a></li>
+													<li><a href="header-style6.html">Header Style 06</a></li>
+													<li><a href="header-style7.html">Header Style 07</a></li>
+													<li><a href="header-style8.html">Header Style 08</a></li>
+													<li><a href="header-style9.html">Header Style 09</a></li>
+													<li><a href="header-style10.html">Header Style 10</a></li>
+												</ul>
+												<ul class="col link-list">
+													<li class="title">Footers Styles</li>
+													<li><a href="footer-style.html">Footer Style 01</a></li>
+													<li><a href="footer-style2.html">Footer Style 02</a></li>
+													<li><a href="footer-style3.html">Footer Style 03</a></li>
+													<li><a href="footer-style4.html">Footer Style 04</a></li>
+													<li><a href="footer-style5.html">Footer Style 05</a></li>
+													<li><a href="footer-style6.html">Footer Style 06</a></li>
+													<li><a href="footer-style7.html">Footer Style 07</a></li>
+													<li><a href="footer-style8.html">Footer Style 08</a></li>
+													<li><a href="footer-style9.html">Footer Style 09</a></li>
+													<li><a href="footer-style10.html">Footer Style 10</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="li-list"><a href="#">Blog <span class="fa fa-caret-down m-0"></span></a>
+								<ul class="sub-menu">
+									<li><a href="#">Blog Grid <i class="fa fa-angle-left float-left mt-1 d-none d-lg-block"></i></a>
+										 <ul class="sub-menu">
+											<li><a href="blog-grid.html">Blog Grid Left</a></li>
+											<li><a href="blog-grid-right.html">Blog Grid Right</a></li>
+											<li><a href="blog-grid-center.html">Blog Grid Center</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Blog List <i class="fa fa-angle-left float-left mt-1 d-none d-lg-block"></i></a>
+										 <ul class="sub-menu">
+											<li><a href="blog-list.html">Blog List Left</a></li>
+											<li><a href="blog-list-right.html">Blog List Right</a></li>
+											<li><a href="blog-list-center.html">Blog List Center</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Blog Details <i class="fa fa-angle-left float-left mt-1 d-none d-lg-block"></i></a>
+										<ul class="sub-menu">
+											<li><a href="blog-details.html">Blog Details Left</a></li>
+											<li><a href="blog-details-right.html">Blog Details Right</a></li>
+											<li><a href="blog-details-center.html">Blog Details Center</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="li-list"><a href="#">Categories <span class="fa fa-caret-down m-0"></span></a>
+								<ul class="sub-menu">
+									<li>
+										<a href="business.html">Educational</a>
+									</li>
+									<li>
+										<a href="business-2.html">Meditation</a>
+									</li>
+									<li>
+										<a href="business-3.html">RealEstate</a>
+									</li>
+									<li>
+										<a href="business-4.html">Restaurant</a>
+									</li>
+									<li>
+										<a href="business-5.html">Backery</a>
+									</li>
+									<li>
+										<a href="business-6.html">Beauty & Spa</a>
+									</li>
+									<li>
+										<a href="business-right.html">Automobiles</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html"> Contact Us <span class="wsarrow"></span></a></li>
+							<li class="d-lg-none mt-5 pb-5 mt-lg-0">
+								<span><a class="btn btn-orange" href="ad-list.html">Add Listing</a></span>
+							</li>
+						</ul>
+						<ul class="mb-0">
+							<li class="mt-2 d-none d-lg-flex">
+								<span><a class="btn btn-secondary ad-post" href="ad-list.html"><i class="fa fa-plus text-white"></i> Add Listing</a></span>
+							</li>
+						</ul>
+					</nav>
+					<!--Nav-->
+				</div>
+				<div class="body-progress-container">
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="myBar"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--Sliders Section-->
+		<section>
+			<div class="banner-1 cover-image sptb-4  sptb-tab bg-background2" data-image-src="../assets/images/banners/banner6.jpg">
+				<div class="header-text mb-0">
+					<div class="container">
+						<div class="text-center text-white">
+							<h1 class="mb-1">Find Your Best Business</h1>
+							<p class="fs-18 font-weight-light">It is a long established fact that a reader will be distracted by the readable.</p>
+						</div>
+						<div class="row">
+							<div class="col-xl-9 col-lg-12 col-md-12 d-block mx-auto">
+								<div class="search-background bg-transparent">
+									<div class="form row no-gutters">
+										<div class="form-group col-xl-4 col-lg-3 col-md-12 mb-0">
+											<input type="text" class="form-control input-lg br-tl-md-0 br-bl-md-0 keywords-input" id="text4" placeholder="Phrase or Keywords">
+										</div>
+										<div class="form-group col-xl-3 col-lg-3 col-md-12 mb-0">
+											<input type="text" class="form-control input-lg br-md-0 location-input border-right" id="text5" placeholder="Enter Location">
+											<span><img src="../assets/images/svgs/gps.svg" alt="img" class="location-gps"></span>
+										</div>
+										<div class="form-group col-xl-3 col-lg-3 col-md-12 select2-lg mb-0">
+											<select class="form-control select2-show-search border-bottom-0 br-lg-0" data-placeholder="Select Category">
+												<optgroup label="Categories">
+													<option>Select Category</option>
+													<option value="0">All Categories</option>
+													<option value="1">Hotels</option>
+													<option value="2">Restaurant</option>
+													<option value="3">Events</option>
+													<option value="4">Cinema</option>
+													<option value="5">Gym</option>
+													<option value="6">Shop & Store</option>
+													<option value="7">Tours & Travels</option>
+													<option value="8">Cafe</option>
+													<option value="9">Mobile Store</option>
+													<option value="10">College</option>
+												</optgroup>
+											</select>
+										</div>
+										<div class="col-xl-2 col-lg-3 col-md-12 mb-0">
+											<a href="#" class="btn btn-lg btn-block btn-secondary br-tr-md-0 br-br-md-0">Search Here</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /header-text -->
+			</div>
+		</section>
+		<!--Sliders Section-->
+
+		<!-- Categories-->
+		<section class="sptb bg-white">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Listings in Top Cities</h2>
+					<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+				</div>
+				<div class="row">
+					<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+						<a href="business-list.html" class="top-cities card text-center mb-xl-0 box-shadow2">
+							<img src="../assets/images/city/075-statue-of-liberty.svg" alt="img" class="w-70 bg-pink-transparent">
+							<div class="servic-data mt-3">
+								<h4 class="font-weight-semibold mb-0">USA</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+						<a href="business-list.html" class="top-cities card text-center mb-xl-0 box-shadow2">
+							<img src="../assets/images/city/097-taj-mahal.svg" alt="img" class="svg2 w-70 bg-purple-transparent">
+							<div class="servic-data mt-3">
+								<h4 class="font-weight-semibold mb-0">India</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+						<a href="business-list.html" class="top-cities card text-center mb-xl-0 box-shadow2">
+							<img src="../assets/images/city/096-eiffel-tower.svg" alt="img" class="w-70 bg-warning-transparent">
+							<div class="servic-data mt-3">
+								<h4 class="font-weight-semibold mb-0">Paris</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+						<a href="business-list.html" class="top-cities card text-center mb-lg-0 box-shadow2">
+							<img src="../assets/images/city/094-sydney-opera-house.svg" alt="img" class="w-70 bg-danger-transparent">
+							<div class="servic-data mt-3">
+								<h4 class="font-weight-semibold mb-0">Sydney</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+						<a href="business-list.html" class="top-cities card text-center mb-0 box-shadow2">
+							<img src="../assets/images/city/010-tokyo-tower.svg" alt="img" class="w-70 bg-success-transparent">
+							<div class="servic-data mt-3">
+								<h4 class="font-weight-semibold mb-0">Tokyo</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+						<a href="business-list.html" class="top-cities card text-center mb-0 box-shadow2">
+							<img src="../assets/images/city/099-great-wall-of-china.svg" alt="img" class="w-70 bg-info-transparent">
+							<div class="servic-data mt-3">
+								<h4 class="font-weight-semibold mb-0">China</h4>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Categories-->
+
+		<!--Latest Listings-->
+		<section class="sptb">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Latest Listings</h2>
+					<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+				</div>
+				<div id="myCarousel1" class="owl-carousel owl-carousel-icons2">
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="power-ribbon power-ribbon-top-right text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/f1.jpg" alt="img" class="cover-image">
+								<div class="item-card2-icons">
+									<a href="business.html" class="item-card2-icons-l"><i class="fa fa-cutlery"></i></a>
+									<a href="#" class="item-card2-icons-r"><i class="fa fa fa-heart-o"></i></a>
+								</div>
+								<div class="blog--category">Restaurant</div>
+							</div>
+							<div class="card-body pb-0">
+								<div class="item-card2">
+									<div class="item-card2-desc">
+										<div class="item-card2-text">
+											<a href="business.html" class="text-dark"><h4 class="mb-0">Somik Restaurant</h4></a>
+										</div>
+										<div class="pt-3">
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-map-marker ml-2"></i>Florida, USA</p></a>
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-phone ml-2"></i>+63 658-865-965</p></a>
+											<p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-clock-o ml-2"></i>10am - 9pm<a> <span class="badge badge-success mr-2 fs-13">Open Now</span></a></p>
+										</div>
+										<p class="">Lorem ipsum dolor sit amet, quis int nostrum exercitationem </p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="item-card2-footer">
+									<div class="item-card2-footer-u">
+									    <div class="d-flex">
+                                            <div class="rating-stars d-inline-flex">
+												<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
+												<div class="rating-stars-container">
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+												</div> (25 Reviews)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="power-ribbon power-ribbon-top-right text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/h4.jpg" alt="img" class="cover-image">
+								<div class="item-card2-icons">
+									<a href="#" class="item-card2-icons-l"><i class="fa fa-home"></i></a>
+									<a href="#" class="item-card2-icons-r"><i class="fa fa fa-heart-o"></i></a>
+								</div>
+								<div class="blog--category">Hotel</div>
+							</div>
+							<div class="card-body pb-0">
+								<div class="item-card2">
+									<div class="item-card2-desc">
+										<div class="item-card2-text">
+											<a href="business.html" class="text-dark"><h4 class="mb-0">GilkonStar Hotel</h4></a>
+										</div>
+										<div class="pt-3">
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-map-marker ml-2"></i>Hollowstead, USA</p></a>
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-phone ml-2"></i>+63 658-965-865</p></a>
+											<p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-clock-o ml-2"></i>9am - 9pm<a> <span class="badge badge-success mr-2 fs-13">Open Now</span></a></p>
+										</div>
+										<p class="">Lorem ipsum dolor sit amet, quis int nostrum exercitationem </p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="item-card2-footer ">
+									<div class="item-card2-footer-u">
+										<div class="d-flex">
+                                            <div class="rating-stars d-inline-flex">
+												<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="6">
+												<div class="rating-stars-container">
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+												</div> (27 Reviews)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="item-card2-img">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/b1.jpg" alt="img" class="cover-image">
+								<div class="item-card2-icons">
+									<a href="#" class="item-card2-icons-l"><i class="fa fa-home"></i></a>
+									<a href="#" class="item-card2-icons-r"><i class="fa fa fa-heart-o"></i></a>
+								</div>
+								<div class="blog--category">beauty & Spa</div>
+							</div>
+							<div class="card-body pb-0">
+								<div class="item-card2">
+									<div class="item-card2-desc">
+										<div class="item-card2-text">
+											<a href="business.html" class="text-dark"><h4 class="mb-0">Sear Beauty & Spa</h4></a>
+										</div>
+										<div class="pt-3">
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-map-marker ml-2"></i>Mannorstead, China</p></a>
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-phone ml-2"></i>+63 965-865-956</p></a>
+											<p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-clock-o ml-2"></i>8am - 6pm<a> <span class="badge badge-danger mr-2 fs-13">Closed</span></a></p>
+										</div>
+										<p class="">Lorem ipsum dolor sit amet, quis int nostrum exercitationem </p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="item-card2-footer">
+									<div class="item-card2-footer-u">
+										<div class="d-flex">
+                                            <div class="rating-stars d-inline-flex">
+												<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="5">
+												<div class="rating-stars-container">
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+												</div> (75 Reviews)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="item-card2-img">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/v1.jpg" alt="img" class="cover-image">
+								<div class="item-card2-icons">
+									<a href="#" class="item-card2-icons-l"><i class="fa fa-home"></i></a>
+									<a href="#" class="item-card2-icons-r"><i class="fa fa fa-heart-o"></i></a>
+								</div>
+								<div class="blog--category">automobiles</div>
+							</div>
+							<div class="card-body pb-0">
+								<div class="item-card2">
+									<div class="item-card2-desc">
+										<div class="item-card2-text">
+											<a href="business.html" class="text-dark"><h4 class="mb-0">Seep Automobiles</h4></a>
+										</div>
+										<div class="pt-3">
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-map-marker ml-2"></i>East Hardfolk, UK</p></a>
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-phone ml-2"></i>+63 968-569-854</p></a>
+											<p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-clock-o ml-2"></i>9am - 7pm<a> <span class="badge badge-success mr-2 fs-13">Open Now</span></a></p>
+										</div>
+										<p class="">Lorem ipsum dolor sit amet, quis int nostrum exercitationem </p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="item-card2-footer">
+									<div class="item-card2-footer-u">
+										<div class="d-flex">
+                                            <div class="rating-stars d-inline-flex">
+												<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
+												<div class="rating-stars-container">
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+												</div> (14 Reviews)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="power-ribbon power-ribbon-top-right text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/f3.jpg" alt="img" class="cover-image">
+								<div class="item-card2-icons">
+									<a href="#" class="item-card2-icons-l"><i class="fa fa-cutlery"></i></a>
+									<a href="#" class="item-card2-icons-r"><i class="fa fa fa-heart-o"></i></a>
+								</div>
+								<div class="blog--category">Restaurant</div>
+							</div>
+							<div class="card-body pb-0">
+								<div class="item-card2">
+									<div class="item-card2-desc">
+										<div class="item-card2-text">
+											<a href="business.html" class="text-dark"><h4 class="mb-0">Somik Restaurant</h4></a>
+										</div>
+										<div class="pt-3">
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-map-marker ml-2"></i>Factdale, Canada</p></a>
+											<a href="mb-1"><p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-phone ml-2"></i>+63 854-968-854</p></a>
+											<p class="pb-0 pt-0 mb-2 mt-2"><i class="fa fa-clock-o ml-2"></i>10am - 7pm<a> <span class="badge badge-danger mr-2 fs-13">Closed</span></a></p>
+										</div>
+										<p class="">Lorem ipsum dolor sit amet, quis int nostrum exercitationem </p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="item-card2-footer">
+									<div class="item-card2-footer-u">
+										<div class="d-flex">
+                                            <div class="rating-stars d-inline-flex">
+												<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
+												<div class="rating-stars-container">
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+												</div> (42 Reviews)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Latest Listings-->
+
+		<!--Location-->
+		<section class="sptb bg-white">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Best Rated Locations</h2>
+					<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+				</div>
+                <div class="row">
+					<div class="col-sm-12 col-lg-3 col-md-6">
+						<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<a href="business-list.html"></a>
+								<div class="card text-center overflow-hidden mb-lg-0">
+									<div class="card-img">
+										<img src="../assets/images/locations/germany1.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text text-right">
+										<div class="rating-stars">
+											<div class="rating-stars-container text-right">
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+										</div>
+										<h4 class="mb-2">Germany</h4>
+										<small class="text-white"><i class="fa fa-moon-o"></i> 8 Cities  <i class="mr-3 fa fa-map-o"></i> 140+ Listings </small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-3 col-md-6">
+						<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<a href="business-list.html"></a>
+								<div class="card text-center overflow-hidden mb-lg-0">
+									<div class="card-img">
+										<img src="../assets/images/locations/london1.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text text-right">
+										<div class="rating-stars">
+											<div class="rating-stars-container text-right">
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+										</div>
+										<h4 class="mb-2">London</h4>
+										<small class="text-white"><i class="fa fa-moon-o"></i> 17 Cities  <i class="mr-3 fa fa-map-o"></i> 24+ Listings </small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-3 col-md-6">
+						<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<a href="business-list.html"></a>
+								<div class="card text-center overflow-hidden mb-md-0">
+									<div class="card-img">
+										<img src="../assets/images/locations/austrelia1.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text text-right">
+										<div class="rating-stars">
+											<div class="rating-stars-container text-right">
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+										</div>
+										<h4 class="mb-2">Australia</h4>
+										<small class="text-white"><i class="fa fa-moon-o"></i> 12 Cities  <i class="mr-3 fa fa-map-o"></i> 18+ Listings </small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-3 col-md-6">
+						<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<a href="business-list.html"></a>
+								<div class="card text-center overflow-hidden mb-0">
+									<div class="card-img">
+										<img src="../assets/images/locations/canada1.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text text-right">
+										<div class="rating-stars">
+											<div class="rating-stars-container text-right">
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="rating-star sm is--active fs-12">
+													<i class="fa fa-star"></i>
+												</div>
+											</div>
+										</div>
+										<h4 class="mb-2">Canada</h4>
+										<small class="text-white"><i class="fa fa-moon-o"></i> 12 Cities  <i class="mr-3 fa fa-map-o"></i> 40+ Listings </small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Location-->
+
+		<!--Our Customers Says-->
+		<section class="sptb  position-relative">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h1 class=" position-relative">Our Customers Says</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="myCarousel" class="owl-carousel testimonial-owl-carousel">
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-xl-8 col-md-12 d-block mx-auto">
+										<div class="">
+										    <div class="owl-controls clickable mt-3 mb-5">
+												<div class="owl-pagination">
+													<div class="owl-page active">
+														<span class=""></span>
+													</div>
+													<div class="owl-page ">
+														<span class=""></span>
+													</div>
+													<div class="owl-page">
+														<span class=""></span>
+													</div>
+												</div>
+											</div>
+										    <p class="">
+												<i class="fa fa-quote-left "></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore sit, aspernatur praesentium iste impedit quidem dolor veniam.
+											</p>
+											<h3 class="title">Elizabeth</h3>
+											<span class="post">Web Designer</span>
+											<div class="rating-stars">
+												<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
+												<div class="rating-stars-container">
+													<div class="rating-star sm is--active">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm is--active">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm is--active">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="rating-star sm">
+														<i class="fa fa-star"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-xl-8 col-md-12 d-block mx-auto">
+										<div class="">
+										    <div class="owl-controls clickable mt-3 mb-5">
+												<div class="owl-pagination">
+													<div class="owl-page ">
+														<span class=""></span>
+													</div>
+													<div class="owl-page active">
+														<span class=""></span>
+													</div>
+													<div class="owl-page">
+														<span class=""></span>
+													</div>
+												</div>
+											</div>
+											<p class=""><i class="fa fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore. </p>
+											<div class="testimonia-data">
+												<h3 class="title">williamson</h3>
+												<span class="post">Web Developer</span>
+												<div class="rating-stars">
+													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value"  value="3">
+													<div class="rating-stars-container">
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item text-center">
+								<div class="row">
+									<div class="col-xl-8 col-md-12 d-block mx-auto">
+										<div class="">
+										    <div class="owl-controls clickable mb-5 mt-3">
+												<div class="owl-pagination">
+													<div class="owl-page ">
+														<span class=""></span>
+													</div>
+													<div class="owl-page">
+														<span class=""></span>
+													</div>
+													<div class="owl-page active">
+														<span class=""></span>
+													</div>
+												</div>
+											</div>
+											<p class=""><i class="fa fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+											<div class="testimonia-data">
+											    <h3 class="title">Sophie Carr</h3>
+												<span class="post">Web Developer</span>
+												<div class="rating-stars">
+													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value"  value="3">
+													<div class="rating-stars-container">
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="rating-star sm">
+															<i class="fa fa-star"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Our Customers Says-->
+
+		<!--post section-->
+		<section>
+			<div class="bg-white sptb">
+				<div class="content-text mb-0">
+					<div class="container">
+						<div class="text-center">
+							<h2 class="mb-2">Subscribe</h2>
+							<p class="fs-16 mb-0">It is a long established fact that a reader will be distracted by the readable.</p>
+							<div class="row">
+								<div class="col-lg-8 mx-auto d-block">
+									<div class="mt-5">
+										<div class="input-group sub-input mt-1">
+											<input type="text" class="form-control input-lg " placeholder="Enter your Email">
+											<div class="input-group-append ">
+												<button type="button" class="btn btn-secondary btn-lg br-tl-3 br-bl-3 pl-5 pr-5">
+													Subscribe
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/post section-->
+
+		<!--Featured Listings-->
+		<section class="sptb">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Featured Listings</h2>
+					<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+				</div>
+				<div id="myCarousel2" class="owl-carousel owl-carousel-icons2">
+					<!-- Wrapper for carousel items -->
+
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="arrow-ribbon bg-success">Open</div>
+							<div class="item-card7-imgs">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/b3.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<a href="business.html" class="text-white"> Beauty & Spa </a>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="business.html" class="text-dark"><h4 class="">Golik Beauty & Spa</h4></a>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="#"><span class=""><i class="icon icon-eye ml-1"></i> 632 Views</span></a></li>
+										<li><a href="#" class="icons"><i class="icon icon-location-pin text-muted ml-1"></i> USA</a></li>
+										<li class="mb-md-0"><a href="#" class="icons"><i class="icon icon-event text-muted ml-1"></i> 22 hours ago</a></li>
+										<li class="mb-0"><a href="#" class="icons"><i class="icon icon-phone text-muted ml-1"></i> 14 675 65430</a></li>
+									</ul>
+									<p class="mb-0">Omnis iste natus error sit dolore dg voluptatem accusantium</p>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="../assets/images/faces/female/17.jpg" alt="image" class="avatar brround  ml-2">
+										<h5 class="time-title text-muted p-0 leading-normal mt-2 mb-0">Victoria<i class="icon icon-check text-success fs-12 ml-1" data-toggle="tooltip" data-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="mt-2 footerimg-r mr-auto">
+										<a href="#" class="text-pink" data-toggle="tooltip" data-placement="top" title="Remove from Wishlist"><i class="fa fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="arrow-ribbon bg-danger">Closed</div>
+							<div class="item-card7-imgs">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/h3.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<a href="business.html" class="text-white"> RealEstate</a>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="business.html" class="text-dark"><h4 class="">2Bk Deluxe Flat</h4></a>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="#"><span class=""><i class="icon icon-eye ml-1"></i> 12 Views</span></a></li>
+										<li><a href="#" class="icons"><i class="icon icon-location-pin text-muted ml-1"></i> UK</a></li>
+										<li class="mb-md-0"><a href="#" class="icons"><i class="icon icon-event text-muted ml-1"></i> 1 hours ago</a></li>
+										<li class="mb-0"><a href="#" class="icons"><i class="icon icon-phone text-muted ml-1"></i> 14 675 65430</a></li>
+									</ul>
+									<p class="mb-0">Omnis iste natus error sit dolore dg voluptatem accusantium</p>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="../assets/images/faces/male/17.jpg" alt="image" class="avatar brround  ml-2">
+										<h5 class="time-title text-muted p-0 leading-normal mt-2 mb-0">Christopher<i class="icon icon-check text-success fs-12 ml-1" data-toggle="tooltip" data-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="mt-2 footerimg-r mr-auto">
+										<a href="#" class="text-muted" data-toggle="tooltip" data-placement="top" title="Add Wishlist"><i class="fa fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="item-card7-imgs">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/v4.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<a href="business.html" class="text-white"> AutoMobile</a>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="business.html" class="text-dark"><h4 class="">Gittbo AutoMobiles</h4></a>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="#"><span class=""><i class="icon icon-eye ml-1"></i> 22 Views</span></a></li>
+										<li><a href="#" class="icons"><i class="icon icon-location-pin text-muted ml-1"></i> London</a></li>
+										<li class="mb-md-0"><a href="#" class="icons"><i class="icon icon-event text-muted ml-1"></i> 5 hours ago</a></li>
+										<li class="mb-0"><a href="#" class="icons"><i class="icon icon-phone text-muted ml-1"></i> 12 654 86596</a></li>
+									</ul>
+									<p class="mb-0">Omnis iste natus error sit dolore dg voluptatem accusantium</p>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="../assets/images/faces/male/18.jpg" alt="image" class="avatar brround  ml-2">
+										<h5 class="time-title text-muted p-0 leading-normal mt-2 mb-0">Wendy	Peake<i class="icon icon-check text-success fs-12 ml-1" data-toggle="tooltip" data-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="mt-2 footerimg-r mr-auto">
+										<a href="#" class="text-muted" data-toggle="tooltip" data-placement="top" title="Add Wishlist"><i class="fa fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="item-card7-imgs">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/f2.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<a href="business.html" class="text-white"> Restaurant</a>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="business.html" class="text-dark"><h4 class="">Chinese Restaurant</h4></a>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="#"><span class=""><i class="icon icon-eye ml-1"></i> 9 Views</span></a></li>
+										<li><a href="#" class="icons"><i class="icon icon-location-pin text-muted ml-1"></i> USA</a></li>
+										<li class="mb-md-0"><a href="#" class="icons"><i class="icon icon-event text-muted ml-1"></i> 2 hours ago</a></li>
+										<li class="mb-0"><a href="#" class="icons"><i class="icon icon-phone text-muted ml-1"></i> 14 358 96584</a></li>
+									</ul>
+									<p class="mb-0">Omnis iste natus error sit dolore dg voluptatem accusantium</p>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="../assets/images/faces/female/12.jpg" alt="image" class="avatar brround  ml-2">
+										<h5 class="time-title text-muted p-0 leading-normal mt-2 mb-0">Wendy	Peake<i class="icon icon-check text-success fs-12 ml-1" data-toggle="tooltip" data-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="mt-2 footerimg-r mr-auto">
+										<a href="#" class="text-pink" data-toggle="tooltip" data-placement="top" title="Remove from Wishlist"><i class="fa fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0 overflow-hidden">
+							<div class="arrow-ribbon bg-primary">Open at 5'o clock</div>
+							<div class="item-card7-imgs">
+								<a href="business.html" class="absolute-link"></a>
+								<img src="../assets/images/products/products/j3.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<a href="business.html" class="text-white"> Beauty</a>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text  d-flex">
+										<a href="business.html" class="text-dark"><h4 class="">FrogeBeauty & Spa</h4></a>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="#"><span class=""><i class="icon icon-eye ml-1"></i> 12 Views</span></a></li>
+										<li><a href="#" class="icons"><i class="icon icon-location-pin text-muted ml-1"></i> Canada</a></li>
+										<li class="mb-md-0"><a href="#" class="icons"><i class="icon icon-event text-muted ml-1"></i> 1 hour ago</a></li>
+										<li class="mb-0"><a href="#" class="icons"><i class="icon icon-phone text-muted ml-1"></i> 14 352 69855</a></li>
+									</ul>
+									<p class="mb-0">Omnis iste natus error sit dolore dg voluptatem accusantium</p>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="../assets/images/faces/female/19.jpg" alt="image" class="avatar brround  ml-2">
+										<h5 class="time-title text-muted p-0 leading-normal mt-2 mb-0">Elizabeth<i class="icon icon-check text-success fs-12 ml-1" data-toggle="tooltip" data-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="mt-2 footerimg-r mr-auto">
+										<a href="business.html" class="text-muted" data-toggle="tooltip" data-placement="top" title="Add Wishlist"><i class="fa fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Featured Listings-->
+
+		<!--Section-->
+		<section class="sptb cover-image patter-image" data-image-src="../assets/images/pngs/7.png">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Download App</h2>
+					<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+				</div>
+                <div class="row">
+					<div class="col-md-12">
+						<div class="text-center text-wrap">
+							<div class="btn-list">
+								<a href="#" class="btn btn-secondary btn-lg mb-sm-0"><i class="fa fa-apple fa-1x ml-2"></i> App Store</a>
+								<a href="#" class="btn btn-primary btn-lg mb-sm-0"><i class="fa fa-android fa-1x ml-2"></i> Google Play</a>
+								<a href="#" class="btn btn-info btn-lg mb-0"><i class="fa fa-windows fa-1x ml-2"></i> Windows</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Section-->
+
+		<!--Footer Section-->
+		<section>
+			<footer class="bg-dark-purple text-white">
+				<div class="footer-main border-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-3 col-lg-6 col-md-12">
+								<h6>About</h6>
+								<p class="mb-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium  ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								<p class="mb-0">Ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+							<div class="col-xl-3 col-lg-6 col-md-12">
+								<h6>Top Rated Locations</h6>
+								<div>
+									<a href="" class=""><img src="../assets/images/locations/india.jpg" alt="imag" class="w-8 h-8 m-1"></a>
+									<a href="" class=""><img src="../assets/images/locations/japan.jpg" alt="imag" class="w-8 h-8 m-1"></a>
+									<a href="" class=""><img src="../assets/images/locations/london.jpg" alt="imag" class="w-8 h-8 m-1"></a>
+									<a href="" class=""><img src="../assets/images/locations/losangels.jpg" alt="imag" class="w-8 h-8 m-1"></a>
+									<a href="" class=""><img src="../assets/images/locations/spain.jpg" alt="imag" class="w-8 h-8 m-1"></a>
+									<a href="" class=""><img src="../assets/images/locations/germany.jpg" alt="imag" class="w-8 h-8 m-1"></a>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-6 col-md-12">
+								<h6 class="mt-6 mt-xl-0">Popular Listings</h6>
+								<ul class="list-unstyled mb-0">
+									<li><a href="#"><i class="fa fa-angle-double-left ml-2 text-secondary"></i> Educational college</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-left ml-2 text-secondary"></i> Free Lancer for Web Developer</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-left ml-2 text-secondary"></i> 2BHK Flat In Hyderabad</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-left ml-2 text-secondary"></i> BPO Jobs In Bangalore</a></li>
+								</ul>
+							</div>
+							<div class="col-xl-3 col-lg-6 col-md-12">
+								<h6 class="mb-2 mt-6 mt-xl-0">Subscribe</h6>
+								<div class="input-group">
+									<input type="text" class="form-control br-tr-3  br-br-3" placeholder="Email">
+									<div class="input-group-append ">
+										<button type="button" class="btn btn-secondary br-tl-3 br-bl-3 pl-5 pr-5">
+											Subscribe
+										</button>
+									</div>
+								</div>
+								<h6 class="mb-2 mt-5">Social Icons</h6>
+								<ul class="social-icons mb-0 mt-3">
+									<li>
+										<a class="social-icon" href=""><i class="fa fa-facebook text-white-50"></i></a>
+									</li>
+									<li>
+										<a class="social-icon" href=""><i class="fa fa-twitter text-white-50"></i></a>
+									</li>
+									<li>
+										<a class="social-icon" href=""><i class="fa fa-rss text-white-50"></i></a>
+									</li>
+									<li>
+										<a class="social-icon" href=""><i class="fa fa-youtube text-white-50"></i></a>
+									</li>
+									<li>
+										<a class="social-icon" href=""><i class="fa fa-linkedin text-white-50"></i></a>
+									</li>
+									<li>
+										<a class="social-icon" href=""><i class="fa fa-google-plus text-white-50"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-dark-purple text-white p-0 border-bottom">
+					<div class="container">
+						<div class="p-2 text-center footer-links">
+							<a href="#" class="btn btn-link">How It Works</a>
+							<a href="#" class="btn btn-link">About Us</a>
+							<a href="#" class="btn btn-link">Pricing</a>
+							<a href="#" class="btn btn-link">Listing Categories</a>
+							<a href="#" class="btn btn-link">Privacy Policy</a>
+							<a href="#" class="btn btn-link">Terms Of Conditions</a>
+							<a href="#" class="btn btn-link">Blog</a>
+							<a href="#" class="btn btn-link">Contact Us</a>
+							<a href="#" class="btn btn-link">Premium Ad</a>
+						</div>
+					</div>
+				</div>
+				<div class="bg-dark-purple text-white-50 p-3">
+					<div class="container">
+						<div class="row d-flex">
+							<div class="col-lg-12 col-sm-12  mt-2 mb-2 text-center ">
+								Copyright © 2020 <a href="#" class="fs-14 text-secondary">Bizdire</a>. Designed by <a href="#" class="fs-14 text-secondary">Spruko</a> All rights reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<!--Footer Section-->
+
+		<!-- Back to top -->
+		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+
+		<!-- JQuery js-->
+		<script src="../assets/js/vendors/jquery-3.2.1.min.js"></script>
+
+		<!-- Bootstrap js -->
+		<script src="../assets/plugins/bootstrap-4.4.1-dist/js/popper.min.js"></script>
+		<script src="../assets/plugins/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+		<!--JQuery Sparkline Js-->
+		<script src="../assets/js/vendors/jquery.sparkline.min.js"></script>
+
+		<!-- Circle Progress Js-->
+		<script src="../assets/js/vendors/circle-progress.min.js"></script>
+
+		<!-- Star Rating Js-->
+		<script src="../assets/plugins/rating/jquery.rating-stars.js"></script>
+
+		<!--Owl Carousel js -->
+		<script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
+		<script src="../assets/js/owl-carousel-rtl.js"></script>
+
+		<!--Horizontal Menu-->
+		<script src="../assets/plugins/horizontal/horizontal-menu/horizontal.js"></script>
+
+		<!--Counters -->
+		<script src="../assets/plugins/counters/counterup.min.js"></script>
+		<script src="../assets/plugins/counters/waypoints.min.js"></script>
+		<script src="../assets/plugins/counters/numeric-counter.js"></script>
+
+		<!--JQuery TouchSwipe js-->
+		<script src="../assets/js/jquery.touchSwipe.min.js"></script>
+
+		<!--Select2 js -->
+		<script src="../assets/plugins/select2/select2.full.min.js"></script>
+		<script src="../assets/js/select2.js"></script>
+
+		<!-- sticky Js-->
+		<script src="../assets/js/sticky.js"></script>
+
+		<!-- Cookie js -->
+		<script src="../assets/plugins/cookie/jquery.ihavecookies.js"></script>
+		<script src="../assets/plugins/cookie/cookie.js"></script>
+
+		<!--Auto Complete js -->
+		<script src="../assets/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script src="../assets/plugins/autocomplete/autocomplete.js"></script>
+
+        <!-- Custom scroll bar Js-->
+		<script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Swipe Js-->
+		<script src="../assets/js/swipe.js"></script>
+
+		<!-- Scripts Js-->
+		<script src="../assets/js/scripts2.js"></script>
+
+
+		<!-- Custom Js-->
+		<script src="../assets/js/custom.js"></script>
+	</body>
+</html>

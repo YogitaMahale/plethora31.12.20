@@ -1,0 +1,100 @@
+﻿@model commissionCreateViewModel;
+@{
+    ViewBag.Title = "New Commission";
+}
+<div class="side-app">
+    @*<div class="page-header">
+            <h4 class="page-title">Tax</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Tax</a></li>
+                <li class="breadcrumb-item active" aria-current="page">New Tax</li>
+            </ol>
+        </div>*@
+    <!-- end row -->
+    <div class="row" style="margin-top:10px;">
+        <div class="col-md-12">
+            <div class="card m-b-20">
+                <div class="card-header">
+                    <h3 class="card-title">Tax</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label" asp-for="commissionper">Percentage</label>
+                                    <input type="text" class="form-control" asp-for="commissionper" id="name1" placeholder="Percentage">
+                                    <span asp-validation-for="commissionper" class="text-danger"></span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="submit" style="margin-right:5px;" class="btn btn-primary "><i class="fa fa-save" style="margin-right:0.7em"></i>Save</button>
+                        <a asp-action="index" class="btn btn-rounded btn-info float-right"><i class="fa fa-backward" style="margin-right:0.7em"></i>Back</a>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+@*<div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item"><a asp-action="Index">Commission List</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">New Commission Registration</li>
+                    </ol>
+                </nav><br /><br />
+
+
+
+                <form method="post" enctype="multipart/form-data" asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+
+
+                        <div class="form-group col-md-2">
+                            <label asp-for="commissionper"></label>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input asp-for="commissionper" class="form-control" placeholder="Enter Country Name.." />
+                            <span asp-validation-for="commissionper" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-4">
+
+                            </div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Save</button>
+                        <a asp-action="index" class="btn btn-rounded btn-success float-right"><i class="fas fa-caret-square-left" style="margin-right:0.7em"></i>Back</a>
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>*@
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+

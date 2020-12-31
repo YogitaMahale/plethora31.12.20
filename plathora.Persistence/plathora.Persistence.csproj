@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201016054725_add social Details table.cs" />
+    <Compile Remove="Migrations\20201016054725_add social Details table.Designer.cs" />
+    <Compile Remove="Migrations\20201214053335_add payment column in BusinessOwnerRegi.cs" />
+    <Compile Remove="Migrations\20201214053335_add payment column in BusinessOwnerRegi.Designer.cs" />
+    <Compile Remove="Migrations\20201214053643_add payment column in BusinessOwnerRegi table.cs" />
+    <Compile Remove="Migrations\20201214053643_add payment column in BusinessOwnerRegi table.Designer.cs" />
+    <Compile Remove="Migrations\20201214053942_add payment in business owner reg.cs" />
+    <Compile Remove="Migrations\20201214053942_add payment in business owner reg.Designer.cs" />
+    <Compile Remove="Migrations\20201214054511_add payment column in business owner table .cs" />
+    <Compile Remove="Migrations\20201214054511_add payment column in business owner table .Designer.cs" />
+    <Compile Remove="Migrations\20201214064430_new Business table .cs" />
+    <Compile Remove="Migrations\20201214064430_new Business table .Designer.cs" />
+    <Compile Remove="Migrations\20201214070723_changes in business owner.cs" />
+    <Compile Remove="Migrations\20201214070723_changes in business owner.Designer.cs" />
+    <Compile Remove="Migrations\20201214073434_add payment details in Advertisement table .cs" />
+    <Compile Remove="Migrations\20201214073434_add payment details in Advertisement table .Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\plathora.Entity\plathora.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

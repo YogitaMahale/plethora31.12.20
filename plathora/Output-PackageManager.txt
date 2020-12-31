@@ -1,0 +1,929 @@
+﻿Restoring NuGet packages...
+Running restore with 4 concurrent jobs.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\plathora.Services.csproj.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\plathora.Utility.csproj.
+The restore inputs for 'plathora.Services' have changed. Continuing restore.
+The restore inputs for 'plathora' have changed. Continuing restore.
+The restore inputs for 'plathora.Utility' have changed. Continuing restore.
+Restoring packages for .NETCoreApp,Version=v3.1...
+Restoring packages for .NETCoreApp,Version=v3.1...
+Restoring packages for .NETCoreApp,Version=v3.1...
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\plathora.Utility.csproj...
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\plathora.Services.csproj...
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj...
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\plathora.Persistence.csproj.
+The restore inputs for 'plathora.Persistence' have changed. Continuing restore.
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\plathora.Persistence.csproj...
+Restoring packages for .NETCoreApp,Version=v3.1...
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Utility 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.UI 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Embedded 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json 12.0.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Binder 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Committing restore...
+Generating MSBuild file G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\plathora.Utility.csproj.nuget.g.props.
+Writing assets file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\project.assets.json
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\plathora.Utility.csproj.nuget.dgspec.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\plathora.Utility.csproj (in 6 sec).
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\plathora.Entity.csproj.
+The restore inputs for 'plathora.Entity' have changed. Continuing restore.
+Restoring packages for .NETCoreApp,Version=v3.1...
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\plathora.Entity.csproj...
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Entity 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Annotations 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.DiagnosticSource 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 5.0.0 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\obj\plathora.Entity.csproj.nuget.dgspec.json
+Committing restore...
+Generating MSBuild file G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\obj\plathora.Entity.csproj.nuget.g.props.
+Writing assets file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\obj\project.assets.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\plathora.Entity.csproj (in 2.59 sec).
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Persistence 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Analyzers 3.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Tools 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.SqlServer 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.EntityFrameworkCore 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Entity 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Design 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Relational 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Data.SqlClient 1.0.19269.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CSharp 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Registry 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Principal.Windows 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.CodePages 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Configuration.ConfigurationManager 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Caching 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Identity.Client 3.0.8 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Abstractions 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Analyzers 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.AsyncInterfaces 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.HashCode 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Memory 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Immutable 1.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.AccessControl 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-arm64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x86.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Platforms 2.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.CompilerServices.Unsafe 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.ProtectedData 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Permissions 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.TypeConverter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.NameResolution 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Formatters 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Json 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.SecureString 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Annotations 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.DiagnosticSource 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.NonGeneric 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Specialized 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.TypeExtensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Resources.ResourceManager 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tracing 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Handles 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Private.DataContractSerialization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Debug 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tools 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.ReaderWriter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Targets 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Concurrent 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.ILGeneration 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.Lightweight 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.RegularExpressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlSerializer 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit 4.3.0 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Committing restore...
+Generating MSBuild file G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\obj\plathora.Persistence.csproj.nuget.g.props.
+Writing assets file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\obj\project.assets.json
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\obj\plathora.Persistence.csproj.nuget.dgspec.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\plathora.Persistence.csproj (in 16.01 sec).
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Services 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.ViewFeatures 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Dapper 2.0.35 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Persistence 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Entity 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Core 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.DataAnnotations 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Formatters.Json 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Antiforgery 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Diagnostics.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Html.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.WebEncoders 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json.Bson 1.0.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.Lightweight 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.SqlServer 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.EntityFrameworkCore 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authentication.Core 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authorization.Policy 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Hosting.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Extensions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.ResponseCaching.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Routing 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Routing.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyModel 2.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks.Extensions 4.5.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Localization 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.JsonPatch 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.DataProtection 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.WebUtilities 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.ObjectPool 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encodings.Web 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for NETStandard.Library 1.6.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Relational 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Data.SqlClient 1.0.19269.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Net.Http.Headers 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authentication.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authorization 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Hosting.Server.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Hosting.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Buffers 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.DotNet.PlatformAbstractions 2.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Dynamic.Runtime 4.0.11 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Localization.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CSharp 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json 11.0.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.DataProtection.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Registry 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Xml 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Principal.Windows 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Features 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.AppContext 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Concurrent 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Console 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Debug 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tools 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tracing 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Calendars 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.Compression 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.Compression.ZipFile 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq.Expressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Http 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Sockets 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ObjectModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Resources.ResourceManager 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Handles 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices.RuntimeInformation 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Numerics 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Algorithms 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.X509Certificates 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.RegularExpressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Timer 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.ReaderWriter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.CodePages 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Configuration.ConfigurationManager 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Caching 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Identity.Client 3.0.8 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Annotations 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.DiagnosticSource 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.AccessControl 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Pkcs 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Permissions 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Platforms 2.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Targets 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.IO.Compression 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.ILGeneration 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.TypeExtensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Net.Http 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Security.Cryptography.Apple 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Csp 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Abstractions 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Analyzers 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.AsyncInterfaces 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.HashCode 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Memory 3.1.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Immutable 1.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-arm64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x86.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.CompilerServices.Unsafe 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.ProtectedData 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.TypeConverter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.NameResolution 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Formatters 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Json 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.SecureString 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Cng 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.NonGeneric 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Specialized 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Private.DataContractSerialization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlSerializer 4.3.0 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\obj\plathora.Services.csproj.nuget.dgspec.json
+Committing restore...
+Generating MSBuild file G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\obj\plathora.Services.csproj.nuget.g.props.
+Writing assets file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\obj\project.assets.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\plathora.Services.csproj (in 18.15 sec).
+  GET https://api.nuget.org/v3-flatcontainer/automapper.extensions.microsoft.dependencyinjection/index.json
+  OK https://api.nuget.org/v3-flatcontainer/automapper.extensions.microsoft.dependencyinjection/index.json 1250ms
+  GET https://api.nuget.org/v3-flatcontainer/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg 465ms
+  GET https://api.nuget.org/v3-flatcontainer/automapper/index.json
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json
+  OK https://api.nuget.org/v3-flatcontainer/automapper/index.json 497ms
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json
+  GET https://api.nuget.org/v3-flatcontainer/automapper/10.1.0/automapper.10.1.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json 1122ms
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg 240ms
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json 2006ms
+  OK https://api.nuget.org/v3-flatcontainer/automapper/10.1.0/automapper.10.1.0.nupkg 2064ms
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/3.0.0/microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/3.0.0/microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg 490ms
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json 1786ms
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/3.0.0/microsoft.extensions.primitives.3.0.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/3.0.0/microsoft.extensions.primitives.3.0.0.nupkg 128ms
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Acquiring lock for the installation of Microsoft.Extensions.Primitives 3.0.0
+Acquired lock for the installation of Microsoft.Extensions.Primitives 3.0.0
+Installing Microsoft.Extensions.Primitives 3.0.0.
+Acquiring lock for the installation of System.Reflection.Emit 4.7.0
+Acquired lock for the installation of System.Reflection.Emit 4.7.0
+Installing System.Reflection.Emit 4.7.0.
+Acquiring lock for the installation of Microsoft.Extensions.Options 3.0.0
+Acquired lock for the installation of Microsoft.Extensions.Options 3.0.0
+Installing Microsoft.Extensions.Options 3.0.0.
+Acquiring lock for the installation of AutoMapper 10.1.0
+Acquired lock for the installation of AutoMapper 10.1.0
+Acquiring lock for the installation of Microsoft.Extensions.DependencyInjection.Abstractions 3.0.0
+Acquired lock for the installation of Microsoft.Extensions.DependencyInjection.Abstractions 3.0.0
+Acquiring lock for the installation of AutoMapper.Extensions.Microsoft.DependencyInjection 8.1.0
+Acquired lock for the installation of AutoMapper.Extensions.Microsoft.DependencyInjection 8.1.0
+Installing AutoMapper 10.1.0.
+Installing Microsoft.Extensions.DependencyInjection.Abstractions 3.0.0.
+Installing AutoMapper.Extensions.Microsoft.DependencyInjection 8.1.0.
+PackageSignatureVerificationLog: PackageIdentity: System.Reflection.Emit.4.7.0 Source: C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\ PackageSignatureValidity: True
+PackageSignatureVerificationLog: PackageIdentity: Microsoft.Extensions.Options.3.0.0 Source: https://api.nuget.org/v3/index.json PackageSignatureValidity: True
+PackageSignatureVerificationLog: PackageIdentity: Microsoft.Extensions.Primitives.3.0.0 Source: https://api.nuget.org/v3/index.json PackageSignatureValidity: True
+PackageSignatureVerificationLog: PackageIdentity: Microsoft.Extensions.DependencyInjection.Abstractions.3.0.0 Source: https://api.nuget.org/v3/index.json PackageSignatureValidity: True
+Completed installation of Microsoft.Extensions.Primitives 3.0.0
+Completed installation of Microsoft.Extensions.Options 3.0.0
+Completed installation of Microsoft.Extensions.DependencyInjection.Abstractions 3.0.0
+PackageSignatureVerificationLog: PackageIdentity: AutoMapper.10.1.0 Source: https://api.nuget.org/v3/index.json PackageSignatureValidity: True
+PackageSignatureVerificationLog: PackageIdentity: AutoMapper.Extensions.Microsoft.DependencyInjection.8.1.0 Source: https://api.nuget.org/v3/index.json PackageSignatureValidity: True
+Completed installation of System.Reflection.Emit 4.7.0
+Completed installation of AutoMapper.Extensions.Microsoft.DependencyInjection 8.1.0
+Completed installation of AutoMapper 10.1.0
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Nancy 2.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Http 4.3.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Tools 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.SqlServer 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNet.WebApi.Client 5.2.7 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.UI 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.EntityFrameworkCore 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.SqlServer.Design 1.1.6 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Services 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Utility 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Entity 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for AutoMapper.Extensions.Microsoft.DependencyInjection 8.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Relational 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.PlatformAbstractions 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Specialized 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.TypeConverter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.NameResolution 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Claims 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlSerializer 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Net.Http 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Debug 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tracing 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Resources.ResourceManager 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Handles 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Algorithms 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.X509Certificates 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGenerators.Mvc 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Design 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Data.SqlClient 1.0.19269.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json.Bson 1.0.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Embedded 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json 12.0.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Razor.Extensions 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Razor 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyModel 3.1.6 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Relational.Design 1.1.6 with .NETCoreApp,Version=v3.1.
+Checking compatibility for NETStandard.Library 1.6.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.ViewFeatures 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Dapper 2.0.35 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Persistence 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for AutoMapper 10.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.TypeExtensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.NonGeneric 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Principal 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.ILGeneration 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.RegularExpressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.ReaderWriter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Targets 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Security.Cryptography.Apple 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Numerics 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Concurrent 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Calendars 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Csp 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CSharp 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Registry 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Principal.Windows 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Configuration.ConfigurationManager 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Caching 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Identity.Client 3.0.8 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Razor.Language 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Json 4.7.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.AppContext 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Console 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tools 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.Compression 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.Compression.ZipFile 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq.Expressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Sockets 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ObjectModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices.RuntimeInformation 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Timer 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Core 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.DataAnnotations 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Formatters.Json 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Antiforgery 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Diagnostics.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Html.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.WebEncoders 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.Lightweight 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Analyzers 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.AsyncInterfaces 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.HashCode 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Memory 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Immutable 1.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.AccessControl 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-arm64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x86.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.ProtectedData 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Permissions 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Formatters 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Json 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.SecureString 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.IO.Compression 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authentication.Core 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authorization.Policy 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Hosting.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Extensions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.ResponseCaching.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Routing 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Routing.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Localization 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.JsonPatch 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.DataProtection 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.WebUtilities 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.ObjectPool 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encodings.Web 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Annotations 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.DiagnosticSource 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Core 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Private.DataContractSerialization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Net.Http.Headers 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authentication.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authorization 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Hosting.Server.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Hosting.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Buffers 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Localization.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.DataProtection.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Xml 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Features 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Templating 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Pkcs 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Utils 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Razor.Runtime 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.CSharp 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Cng 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Contracts 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.CSharp.Workspaces 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for NuGet.Frameworks 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Razor 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Common 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Workspaces.Common 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Analyzers 2.9.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Memory 4.5.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Metadata 1.6.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.CompilerServices.Unsafe 4.5.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.CodePages 4.5.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks.Extensions 4.5.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Platforms 2.1.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.AttributedModel 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.Convention 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.Hosting 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.Runtime 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.TypedParts 1.0.31 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\plathora.csproj.nuget.dgspec.json
+Committing restore...
+Generating MSBuild file G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\plathora.csproj.nuget.g.props.
+Writing assets file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\project.assets.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj (in 35.02 sec).
+
+NuGet Config files used:
+    C:\Users\dell\AppData\Roaming\NuGet\NuGet.Config
+    C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+
+Feeds used:
+    https://api.nuget.org/v3/index.json
+    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Installed:
+    6 package(s) to G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj
+NuGet package restore finished.
+Time Elapsed: 00:00:36.6698163
+========== Finished ==========
+
+
+Restoring NuGet packages...
+Running restore with 4 concurrent jobs.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\plathora.Entity.csproj.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\plathora.Utility.csproj.
+The restore inputs for 'plathora.Utility' have changed. Continuing restore.
+The restore inputs for 'plathora.Entity' have not changed. No further actions are required to complete the restore.
+Restoring packages for .NETCoreApp,Version=v3.1...
+No-Op restore. The cache will not be updated. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\obj\project.nuget.cache
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\plathora.Services.csproj.
+Reading project file G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\plathora.Persistence.csproj.
+The restore inputs for 'plathora' have changed. Continuing restore.
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj...
+The restore inputs for 'plathora.Persistence' have not changed. No further actions are required to complete the restore.
+No-Op restore. The cache will not be updated. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\obj\project.nuget.cache
+The restore inputs for 'plathora.Services' have not changed. No further actions are required to complete the restore.
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+No-Op restore. The cache will not be updated. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\obj\project.nuget.cache
+Committing restore...
+Assets file has not changed. Skipping assets file writing. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\obj\project.assets.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Persistence\plathora.Persistence.csproj (in 65 ms).
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\plathora.Entity.csproj (in 26 ms).
+Assets file has not changed. Skipping assets file writing. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Entity\obj\project.assets.json
+Committing restore...
+Restoring packages for G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\plathora.Utility.csproj...
+Committing restore...
+Assets file has not changed. Skipping assets file writing. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\obj\project.assets.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Services\plathora.Services.csproj (in 69 ms).
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Utility 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.UI 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Embedded 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json 12.0.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Binder 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Restoring packages for .NETCoreApp,Version=v3.1...
+Committing restore...
+Writing assets file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\project.assets.json
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\plathora.Utility.csproj.nuget.dgspec.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\plathora.Utility.csproj (in 188 ms).
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Nancy 2.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Http 4.3.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for AutoMapper.Extensions.Microsoft.DependencyInjection 8.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Tools 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.SqlServer 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNet.WebApi.Client 5.2.7 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.UI 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Identity.EntityFrameworkCore 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.SqlServer.Design 1.1.6 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Services 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Utility 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Entity 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Relational 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.PlatformAbstractions 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Specialized 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.TypeConverter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.NameResolution 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Claims 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlSerializer 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Net.Http 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Debug 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tracing 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Resources.ResourceManager 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Handles 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Algorithms 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.OpenSsl 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.X509Certificates 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGenerators.Mvc 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for AutoMapper 10.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Design 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Data.SqlClient 1.0.19269.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json.Bson 1.0.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Embedded 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Newtonsoft.Json 12.0.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Razor.Extensions 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Razor 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyModel 3.1.6 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Relational.Design 1.1.6 with .NETCoreApp,Version=v3.1.
+Checking compatibility for NETStandard.Library 1.6.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.ViewFeatures 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Dapper 2.0.35 with .NETCoreApp,Version=v3.1.
+Checking compatibility for plathora.Persistence 1.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Stores 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.TypeExtensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.NonGeneric 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Principal 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.ILGeneration 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.RegularExpressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.ReaderWriter 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XmlDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Targets 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.FileSystem.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Security.Cryptography.Apple 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Numerics 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Concurrent 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Globalization.Calendars 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Csp 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CSharp 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Registry 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Principal.Windows 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Configuration.ConfigurationManager 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Caching 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Identity.Client 3.0.8 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.FileProviders.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Razor.Language 3.1.10 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Json 4.7.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Win32.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.AppContext 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Console 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.Tools 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.Compression 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.IO.Compression.ZipFile 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Linq.Expressions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Net.Sockets 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ObjectModel 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.InteropServices.RuntimeInformation 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.Extensions 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Timer 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Xml.XDocument 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Core 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.DataAnnotations 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Formatters.Json 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Antiforgery 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Diagnostics.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Html.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.WebEncoders 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Emit.Lightweight 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Identity.Core 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Abstractions 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.EntityFrameworkCore.Analyzers 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.AsyncInterfaces 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Bcl.HashCode 1.1.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Caching.Memory 3.1.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Collections.Immutable 1.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.AccessControl 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-arm64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x64.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.win-x86.runtime.native.System.Data.SqlClient.sni 4.4.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.ProtectedData 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Permissions 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Formatters 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Json 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.Serialization.Primitives 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.SecureString 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for runtime.native.System.IO.Compression 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Mvc.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authentication.Core 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authorization.Policy 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Hosting.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Extensions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.ResponseCaching.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Routing 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Routing.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Localization 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.JsonPatch 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.DataProtection 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.WebUtilities 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.ObjectPool 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encodings.Web 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.KeyDerivation 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Options 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.ComponentModel.Annotations 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Primitives 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.DependencyInjection.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Logging.Abstractions 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Diagnostics.DiagnosticSource 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Core 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Private.DataContractSerialization 4.3.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Net.Http.Headers 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authentication.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Authorization 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Hosting.Server.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Hosting.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Buffers 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Localization.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.DataProtection.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Xml 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Http.Features 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Cryptography.Internal 5.0.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Templating 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.Extensions.Configuration.Abstractions 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Pkcs 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Utils 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Razor.Runtime 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.CSharp 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Security.Cryptography.Cng 4.5.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.VisualStudio.Web.CodeGeneration.Contracts 3.1.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.CSharp.Workspaces 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for NuGet.Frameworks 4.7.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.AspNetCore.Razor 2.2.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Common 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Workspaces.Common 3.3.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.CodeAnalysis.Analyzers 2.9.4 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Memory 4.5.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Reflection.Metadata 1.6.0 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Runtime.CompilerServices.Unsafe 4.5.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Text.Encoding.CodePages 4.5.1 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Threading.Tasks.Extensions 4.5.3 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for Microsoft.NETCore.Platforms 2.1.2 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.AttributedModel 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.Convention 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.Hosting 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.Runtime 1.0.31 with .NETCoreApp,Version=v3.1.
+Checking compatibility for System.Composition.TypedParts 1.0.31 with .NETCoreApp,Version=v3.1.
+All packages and projects are compatible with .NETCoreApp,Version=v3.1.
+Writing cache file to disk. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\project.nuget.cache
+Persisting dg to G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\plathora.csproj.nuget.dgspec.json
+
+NuGet Config files used:
+    C:\Users\dell\AppData\Roaming\NuGet\NuGet.Config
+    C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+
+Feeds used:
+    https://api.nuget.org/v3/index.json
+    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+NuGet package restore finished.
+Committing restore...
+Assets file has not changed. Skipping assets file writing. Path: G:\plathora 12.12.20\14.12.20\plathora\plathora\obj\project.assets.json
+Restored G:\plathora 12.12.20\14.12.20\plathora\plathora\plathora.csproj (in 2.44 sec).
+3 of 5 projects are up-to-date for restore.
+Time Elapsed: 00:00:02.7665370
+========== Finished ==========
+
+

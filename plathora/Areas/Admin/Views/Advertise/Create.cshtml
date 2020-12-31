@@ -1,0 +1,208 @@
+﻿@model AdvertiseCreateViewModel;
+@{
+    ViewBag.Title = "New Advertise";
+}
+    <div class="side-app">
+        @*<div class="page-header">
+            <h4 class="page-title">Tax</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Tax</a></li>
+                <li class="breadcrumb-item active" aria-current="page">New Tax</li>
+            </ol>
+        </div>*@
+        <!-- end row -->
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12">
+                <div class="card m-b-20">
+                    <div class="card-header">
+                        <h3 class="card-title">Tax</h3>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" enctype="multipart/form-data" asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="name"> </label>
+                                        <input type="text" class="form-control" asp-for="name" id="name1" placeholder="Name">
+                                        <span asp-validation-for="name" class="text-danger"></span>
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="Amount"></label>
+                                        <input type="text" asp-for="Amount" class="form-control" id="name2" placeholder="Amount">
+
+                                        <span asp-validation-for="Amount" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="period"> </label>
+                                        <input type="text" class="form-control" asp-for="period" id="name1" placeholder="Period">
+                                        <span asp-validation-for="period" class="text-danger"></span>
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="gst"></label>
+                                        <input type="text" asp-for="gst" class="form-control" id="name2" placeholder="GST">
+
+                                        <span asp-validation-for="gst" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="affilateamt"></label>
+                                        <input type="text" asp-for="affilateamt" class="form-control" id="name2" placeholder="Affilate Amount">
+                                        <span asp-validation-for="affilateamt" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="plethoraamt"></label>
+                                        <input type="text" asp-for="plethoraamt" class="form-control" id="name2" placeholder="Plethora Amount">
+                                        <span asp-validation-for="plethoraamt" class="text-danger"></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="description"> </label>
+                                        <textarea class="form-control" asp-for="description" placeholder="Description Name" rows="3"></textarea>
+                                        @*<input type="text" class="form-control" asp-for="description" id="name1" placeholder="Description Name">*@
+                                        <span asp-validation-for="description" class="text-danger"></span>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="img"> </label>
+                                        <div class="btn btn-primary btn-icon-text">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <input asp-for="img" type="file" value="Upload" />
+                                            <span asp-validation-for="img" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <button type="submit" style="margin-right:5px;" class="btn btn-primary "><i class="fa fa-save" style="margin-right:0.7em"></i>Save</button>
+                            <a asp-action="index" class="btn btn-rounded btn-info float-right"><i class="fa fa-backward" style="margin-right:0.7em"></i>Back</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+@*<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index">Advertise List</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">New Advertise</li>
+                </ol>
+            </nav><br /><br />
+
+           
+
+        <form method="post" enctype="multipart/form-data" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-row">
+                <label asp-for="name"></label>
+                <input asp-for="name" class="form-control" placeholder="Enter name.." />
+                <span asp-validation-for="name" class="text-danger"></span>
+
+
+            </div>
+            <div class="form-row">
+                <label asp-for="Amount"></label>
+                <input asp-for="Amount" class="form-control" placeholder="Enter Amount.." />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+
+
+            </div>
+            <div class="form-row">
+                <label asp-for="description"></label>
+                <input asp-for="description" class="form-control" placeholder="Enter description.." />
+                <span asp-validation-for="description" class="text-danger"></span>
+
+
+            </div>
+            <div class="form-row">
+                <label asp-for="period"></label>
+                <input asp-for="period" class="form-control" placeholder="Enter period.." />
+                <span asp-validation-for="period" class="text-danger"></span>
+
+
+            </div>
+
+            <br />
+            <div class="form-row">
+                <label asp-for="gst"></label>
+                <input asp-for="gst" class="form-control" placeholder="Enter GST.." />
+                <span asp-validation-for="gst" class="text-danger"></span>
+
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="img"></label>
+                </div>
+                <div class="form-group col-md-1">
+
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="btn btn-primary btn-icon-text">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <input asp-for="img" type="file" value="Upload" />
+                        <span asp-validation-for="img" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+
+                <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Save</button>
+                <a asp-action="index" class="btn btn-rounded btn-success float-right"><i class="fas fa-caret-square-left" style="margin-right:0.7em"></i>Back</a>
+                <br />
+                <br />
+                <br />
+
+            </div>
+        </form>
+        </div>
+    </div>
+</div>*@
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        alert('ready');
+    });
+</script>
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>plathora.Services</id>
+    <version>1.0.0</version>
+    <authors>plathora.Services</authors>
+    <owners>plathora.Services</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="plathora.Entity" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="plathora.Persistence" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.ViewFeatures" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\yogita 6.8.19\asp.net core\plathora final\plathora.Services\bin\Release\netcoreapp3.1\plathora.Services.dll" target="lib\netcoreapp3.1\plathora.Services.dll" />
+  </files>
+</package>

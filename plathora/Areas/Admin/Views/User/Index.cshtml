@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewData["Title"] = "User Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="side-app">
+    @*<div class="page-header">
+            <h4 class="page-title">Tax</h4>
+            <ol class="breadcrumb">
+
+            </ol>
+        </div>*@
+    <div class="row">
+
+        <div class="col-md-12 col-lg-12">
+            <div class="card-header">
+                <h3 class="card-title">@ViewData["Title"]</h3>
+            </div>
+            <div class="card">
+                <div style="text-align:right;padding-right: 20px;padding-left: 0px;padding-top: 10px;">
+                    <a class="btn btn-sm btn-primary float-md-right;" asp-action="Create"> Add New User</a>
+                </div>
+
+
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="tblData" class="hover table-bordered border-top-0 border-bottom-0">
+                            <thead>
+                                <tr>
+
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>UniqueID </th>
+                                    <th>Role</th>
+                                    <th>Status</th>
+                                    <th class="text-warning">Actions</th>
+
+                                </tr>
+                            </thead>
+                            @*<tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+
+                                        <tr>
+                                            <td>
+                                                @item.name
+                                            </td>
+                                            <td>
+                                                @item.percentage
+                                            </td>
+
+                                            <td>
+                                                <a class="btn btn-primary btn-sm mb-1" data-toggle="tooltip" data-original-title="View" asp-action="Edit" asp-route-id="@item.id">
+                                                    <i class="fa fa-edit">
+                                                    </i>
+                                                </a>
+                                                <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete" asp-action="Delete" asp-route-id="@item.id">
+                                                    <i class="fa fa-trash-o">
+
+                                                    </i>
+
+                                                </a>
+                                                <br>
+
+
+                                            </td>
+                                        </tr>
+                                    }
+
+
+                                </tbody>*@
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*<div class="row">
+        <div class="col-md-12 grid-margin">
+            <div class="card">
+                <div class="card-body">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">User Details</li>
+                        </ol>
+                    </nav><br /><br />
+                    <div class="row">
+                        <div class="col-md-12 table-responsive-md bg-white">
+                            <a class="btn btn-xs btn-success float-md-right" asp-area="Identity" asp-page="/Account/Register"><i class="fas fa-plus"></i> Create New User</a>
+                            <br />
+                            <br />
+
+
+
+                            <table class="table   table-bordered" style="width:100%" id="tblData">
+
+                                <thead class="thead-dark">
+                                    <tr>
+
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>UniqueID </th>
+                                        <th>Role</th>
+
+                                        <th></th>
+                                    </tr>
+                                </thead>
+
+                            </table>
+                            <br />
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+
+
+@section Scripts{
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>*@
+    <script src="~/js/user.js"></script>
+}
+
+
+ 

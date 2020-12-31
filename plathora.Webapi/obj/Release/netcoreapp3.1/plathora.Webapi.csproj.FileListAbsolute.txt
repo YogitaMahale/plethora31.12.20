@@ -1,0 +1,10 @@
+E:\yogita old\plathora final\plathora.Webapi\bin\Release\netcoreapp3.1\appsettings.Development.json
+E:\yogita old\plathora final\plathora.Webapi\bin\Release\netcoreapp3.1\appsettings.json
+E:\yogita old\plathora final\plathora.Webapi\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+E:\yogita old\plathora final\plathora.Webapi\bin\Release\netcoreapp3.1\plathora.Webapi.exe
+E:\yogita old\plathora final\plathora.Webapi\obj\Release\netcoreapp3.1\plathora.Webapi.csprojAssemblyReference.cache
+E:\yogita old\plathora final\plathora.Webapi\obj\Release\netcoreapp3.1\plathora.Webapi.AssemblyInfoInputs.cache
+E:\yogita old\plathora final\plathora.Webapi\obj\Release\netcoreapp3.1\plathora.Webapi.AssemblyInfo.cs
+E:\yogita old\plathora final\plathora.Webapi\obj\Release\netcoreapp3.1\plathora.Webapi.RazorTargetAssemblyInfo.cache
+E:\yogita old\plathora final\plathora.Webapi\obj\Release\netcoreapp3.1\staticwebassets\plathora.Webapi.StaticWebAssets.Manifest.cache
+E:\yogita old\plathora final\plathora.Webapi\obj\Release\netcoreapp3.1\staticwebassets\plathora.Webapi.StaticWebAssets.xml

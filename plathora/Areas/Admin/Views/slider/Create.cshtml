@@ -1,0 +1,63 @@
+﻿@model sliderCreateViewModel;
+@{
+    ViewBag.Title = "Add New Image";
+}
+    <div class="side-app">
+        @*<div class="page-header">
+            <h4 class="page-title">Tax</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Tax</a></li>
+                <li class="breadcrumb-item active" aria-current="page">New Tax</li>
+            </ol>
+        </div>*@
+        <!-- end row -->
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12">
+                <div class="card m-b-20">
+                    <div class="card-header">
+                        <h3 class="card-title">Upload Images</h3>
+                    </div>
+
+                     
+
+                    <div class="card-body">
+                        <form method="post" enctype="multipart/form-data" asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label   asp-for="name">First Name</label>
+                                        <div class="btn btn-primary btn-icon-text">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <input asp-for="name"   type="file" value="Upload" />
+                                            <span asp-validation-for="name" class="text-danger"></span>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+                                
+                            </div>
+
+                            <button type="submit" style="margin-right:5px;" class="btn btn-primary "><i class="fa fa-save" style="margin-right:0.7em"></i>Save</button>
+                            <a asp-action="index" class="btn btn-rounded btn-info float-right"><i class="fa fa-backward" style="margin-right:0.7em"></i>Back</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+ 
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>

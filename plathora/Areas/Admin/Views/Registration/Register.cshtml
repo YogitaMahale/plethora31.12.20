@@ -1,0 +1,224 @@
+﻿@model RegisterViewModel;
+
+@{
+    ViewData["Title"] = "Register";
+  Layout = "~/Views/Shared/_front.cshtml";
+    // <a href="E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora\Views\Shared\_front.cshtml">E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora\Views\Shared\_front.cshtml</a>
+}
+
+
+<!--Breadcrumb-->
+<section>
+    <div class="bannerimg cover-image bg-background3" data-image-src="../assets/images/banners/banner2.jpg">
+        <div class="header-text mb-0">
+            <div class="container">
+                <div class="text-center text-white">
+                    <h1 class="">Register</h1>
+                    <ol class="breadcrumb text-center">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Register</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/Breadcrumb-->
+<!--Register-section-->
+<section class="sptb">
+    <div class="container customerpage">
+        <div class="row">
+            <div class="single-page">
+                <div class="col-lg-5 col-xl-4 col-md-6 d-block mx-auto">
+                    <div class="wrapper wrapper2">
+                        <div class="card-body">
+                            <h3>Register</h3>
+                            @*<div class="text-center">
+                                    <div class="btn-list d-flex">
+                                        <a href="https://www.google.com/gmail/" class="btn btn-google btn-block"><i class="fa fa-google fa-1x mr-2"></i> Google</a>
+                                        <a href="https://twitter.com/" class="btn btn-twitter"><i class="fa fa-twitter fa-1x"></i></a>
+                                        <a href="https://www.facebook.com/" class="btn btn-facebook"><i class="fa fa-facebook fa-1x"></i></a>
+                                    </div>
+                                </div>*@
+                        </div>
+
+                        <form method="post" enctype="multipart/form-data" asp-action="Register">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <div class="name">
+                                <input type="text" asp-for="name">
+                                <label asp-for="name"> </label>
+                                <span asp-validation-for="name" class="text-danger"></span>
+                            </div>
+                            <div class="name">
+                                <input type="text" asp-for="mobileno1">
+                                <label asp-for="mobileno1"> </label>
+                                <span asp-validation-for="mobileno1" class="text-danger"></span>
+                            </div>
+
+
+                            <div class="mail">
+                                <input type="email" asp-for="Email">
+                                <label asp-for="Email">Email</label>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="submit">
+                                <button type="submit"   class="btn btn-secondary btn-block">Register</button>
+                                @*<a class="btn btn-secondary btn-block" href="index.html">Register</a>*@
+                            </div>
+                            <p class="text-dark mb-0">Already have an account?<a href="login.html" class="text-secondary ml-1">Sign In</a></p>
+
+
+
+                            <div class="col-md-4 col-md-offset-2">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Register-section-->
+<!--Newsletter-->
+
+<partial name="_Subscribe" />
+@*<section class="sptb bg-white border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-xl-6 col-md-12">
+                    <div class="sub-newsletter d-sm-flex">
+                        <i class="fa fa-envelope fs-22 mr-2"></i>
+                        <div>
+                            <h3 class="mb-1">Subscribe To Our Newsletter</h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-6 col-md-12 mt-4 mt-lg-0">
+                    <div class="input-group sub-input mt-1">
+                        <input type="text" class="form-control input-lg" placeholder="Enter your Email">
+                        <div class="input-group-append ">
+                            <button type="button" class="btn btn-secondary btn-lg br-tr-3 br-br-3 pl-5 pr-5">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+<!--/Newsletter-->
+@*<h1>@ViewData["Title"]</h1>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <h4>Create a new account.</h4>
+                    <hr />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="Input.name"></label>
+                        <input asp-for="Input.name" class="form-control" />
+                        <span asp-validation-for="Input.name" class="text-danger"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label asp-for="Input.mobileno1 "></label>
+                            <input asp-for="Input.mobileno1" class="form-control" />
+                            <span asp-validation-for="Input.mobileno1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group  col-md-6">
+                            <label asp-for="Input.Email"></label>
+                            <input asp-for="Input.Email" class="form-control" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label asp-for="Input.Password"></label>
+                            <input asp-for="Input.Password" class="form-control" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group  col-md-6">
+                            <label asp-for="Input.ConfirmPassword"></label>
+                            <input asp-for="Input.ConfirmPassword" class="form-control" />
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+
+
+
+
+                    @if (User.IsInRole(SD.Role_Admin))
+                    {
+                        <div class="form-group">
+                            <label asp-for="Input.Role"></label>
+                            @Html.DropDownListFor(m => m.Input.Role, Model.Input.roleList, "Please Select Role", new { @class = "form-control" })
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                    }
+                    <button type="submit" class="btn btn-primary">Register</button>
+
+
+                    <br />
+                    <br />
+                    <br />
+                </form>
+            </div>
+            <div class="col-md-4 col-md-offset-2">
+                <section>
+                    <h4>Use another service to register.</h4>
+                    <hr />
+                    @{
+                        if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                        {
+                            <div>
+                                <p>
+                                    There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                                    for details on setting up this ASP.NET application to support logging in via external services.
+                                </p>
+                            </div>
+                        }
+                        else
+                        {
+                            <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                                <div>
+                                    <p>
+                                        @foreach (var provider in Model.ExternalLogins)
+                                        {
+                                            <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                        }
+                                    </p>
+                                </div>
+                            </form>
+                        }
+                    }
+                </section>
+            </div>
+        </div>
+
+    @section Scripts {
+            <partial name="_ValidationScriptsPartial" />
+        }*@
+
+@*// localStorage.setItem('OTPverifiy', false);*@
+
+ 

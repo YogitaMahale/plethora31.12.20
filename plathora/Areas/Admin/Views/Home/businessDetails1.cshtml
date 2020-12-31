@@ -1,0 +1,101 @@
+﻿@Model  IEnumerable<plathora.Models.BusinessRegistrationIndexViewModel>
+    
+    @{
+        ViewData["Title"] = "businessDetails";
+        Layout = "~/Views/Shared/_front.cshtml";
+    }
+    <!--Breadcrumb-->
+    <div class="bg-white border-bottom">
+        <div class="container">
+            <div class="page-header">
+                <h4 class="page-title">Business list</h4>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Business list</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!--/Breadcrumb-->
+    <!--Add listing-->
+    <!--/Add Listings-->
+    <!-- Newsletter-->
+    <!--How to work-->
+    <section class="sptb bg-white">
+        <div class="container">
+            <div class="section-title center-block text-center">
+                <h2>Business</h2>
+                @*<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>*@
+            </div>
+            <div class="row">
+                @foreach (var obj in Model)
+                {
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="">
+                            <div class="mb-lg-0 mb-4">
+                                <div class="service-card text-center">
+                                    <div class="bg-light icon-bg  icon-service text-purple about service-card-svg">
+
+                                        <img src="@obj.photo" />
+                                        @*<svg height="618pt" viewBox="-28 -19 618 618.66574" width="618pt" xmlns="http://www.w3.org/2000/svg"><path d="m211.265625 264.132812c72.9375 0 132.066406-59.125 132.066406-132.066406 0-72.9375-59.128906-132.066406-132.066406-132.066406s-132.066406 59.128906-132.066406 132.066406c.070312 72.914063 59.15625 131.996094 132.066406 132.066406zm0-239.144531c59.140625 0 107.078125 47.945313 107.078125 107.078125 0 59.140625-47.9375 107.078125-107.078125 107.078125-59.136719 0-107.074219-47.9375-107.074219-107.078125.066406-59.109375 47.964844-107.007812 107.074219-107.078125zm0 0" /><path d="m554.492188 337.976562-107.703126-57.347656c-3.710937-2.023437-8.203124-1.976562-11.871093.121094l-98.582031 53.976562c-36.109376-26.863281-79.34375-40.855468-125.316407-40.855468-57.226562.125-110.328125 22.367187-149.6875 62.847656-39.859375 40.855469-61.726562 96.707031-61.597656 157.304688.019531 6.894531 5.601563 12.476562 12.492187 12.496093l347.597657-.625c16.339843 20.289063 37.347656 36.320313 61.222656 46.730469l14.496094 6.371094c1.574219.703125 3.28125 1.042968 5 1 1.710937-.03125 3.40625-.367188 4.996093-1l16.367188-7.121094c60.136719-25.230469 99.25-84.09375 99.207031-149.3125v-73.46875c.003907-4.640625-2.539062-8.910156-6.621093-11.117188zm-529.394532 163.429688c2.621094-49.105469 21.738282-93.957031 54.226563-127.320312 34.605469-35.609376 81.460937-55.226563 131.816406-55.226563h.375c41.359375 0 80.09375 12.996094 112.203125 37.609375v67.59375c.019531 26.835938 6.714844 53.242188 19.488281 76.839844zm511.027344-78.84375c.023438 55.21875-33.140625 105.039062-84.089844 126.324219h-.125l-11.367187 4.871093-9.5-4.125c-49.96875-21.832031-82.28125-71.160156-82.335938-125.691406v-67.597656l92.332031-50.601562 95.085938 50.726562zm0 0" /><path d="m406.804688 415.941406c-4.484376-5.242187-12.371094-5.855468-17.617188-1.371094-5.242188 4.484376-5.855469 12.371094-1.371094 17.613282l28.359375 33.109375c2.382813 2.769531 5.847657 4.363281 9.496094 4.375 2.863281.023437 5.644531-.945313 7.871094-2.75l65.972656-53.597657c5.347656-4.382812 6.128906-12.269531 1.746094-17.621093-4.378907-5.347657-12.265625-6.128907-17.613281-1.746094l-56.476563 45.980469zm0 0" /></svg>*@
+                                    </div>
+                                    <div class="servic-data mt-3">
+                                        <h4 class="font-weight-semibold mb-2">@obj.name</h4>
+                                        @*<p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere possimus</p>*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+
+            </div>
+        </div>
+    </section>
+    <!--/How to work-->
+    <!--/Newsletter-->
+    <!-- Message Modal -->
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="examplecontactLongTitle">Send Message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="contact-email" placeholder="Email Address">
+                    </div>
+                    <div class="form-group mb-0">
+                        <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Video Modal -->
+    <div class="modal fade" id="homeVideo" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="pauseVid()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video id="gossVideo" class="embed-responsive-item" controls="controls">
+                        <source src="../assets/video/300052515.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>

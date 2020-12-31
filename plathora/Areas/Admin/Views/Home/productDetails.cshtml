@@ -1,0 +1,58 @@
+﻿@model IEnumerable<plathora.Models.ProductIndexViewModel>
+@{
+    ViewData["Title"] = "productDetails";
+    Layout = "~/Views/Shared/_front.cshtml";
+}
+
+<!--Breadcrumb-->
+<section>
+    <div class="bannerimg cover-image bg-background3" data-image-src="../assets/images/banners/banner2.jpg">
+        <div class="header-text mb-0">
+            <div class="container">
+                <div class="text-center text-white">
+                    <h1 class="">Product</h1>
+                    <ol class="breadcrumb text-center">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Business</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Product</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/Breadcrumb-->
+<!-- Categories-->
+<section class="sptb bg-white">
+    <div class="container">
+        <div class="section-title center-block text-center">
+            <h2>Listings in Top Product</h2>
+            @*<p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>*@
+        </div>
+        <div class="row">
+            @foreach (var obj in Model)
+            {
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <a asp-area="Admin" asp-controller="Home" asp-action="BusinessListing" asp-route-productid="@obj.id" class="top-cities card text-center mb-xl-0 box-shadow2">
+                        @if (obj.img == null || obj.img == "")
+                        {
+                        <img src="~/uploads/blank1.jpg" alt="img" class="w-70 ">
+                        }
+                        else
+                        {
+                     <img src="@obj.img" alt="img" class="w-70 ">
+                        }
+
+                        @*<img src="@obj.img" alt="img" class="w-70 bg-pink-transparent">*@
+                        <div class="servic-data mt-3">
+                            <h4 class="font-weight-semibold mb-0">@obj.productName</h4>
+                        </div>
+                    </a>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</section>
+<!--Categories-->

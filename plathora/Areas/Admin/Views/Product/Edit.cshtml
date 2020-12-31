@@ -1,0 +1,235 @@
+﻿@model ProductEditViewModel;
+@{
+    ViewBag.Title = "Edit Details";
+}
+
+    <div class="side-app">
+        @*<div class="page-header">
+
+
+        </div>*@
+        <!-- end row -->
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12">
+                <div class="card m-b-20">
+                    <div class="card-header">
+                        <h3 class="card-title">Edit</h3>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" enctype="multipart/form-data" asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="sectorid"></label>
+                                        <select name="sectorid" id="sectorid" asp-for="sectorid" class="form-control"
+                                                asp-items="@(new SelectList(ViewBag.SectorList,"id","name"))"
+                                                onchange="DoPostBack();">
+                                            @*asp-items="@ViewBag.Countries"*@
+                                            <option>--- Select  ---</option>
+                                        </select>
+                                        <span asp-validation-for="sectorid" class="text-danger"></span>
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="businessid">Percentage</label>
+                                        <select name="businessid" id="businessid" asp-for="businessid" class="form-control"
+                                                asp-items="@ViewBag.business">
+                                            @*disabled="@(ViewBag.StateEnabled == false ? "disabled" : null)"*@
+                                            <option>--- Select  ---</option>
+                                        </select>
+                                        <span asp-validation-for="businessid" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="productName"></label>
+                                        <input type="text" class="form-control" asp-for="productName" id="name1" placeholder="Enter Name">
+                                        <span asp-validation-for="productName" class="text-danger"></span>
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <div class="form-group">
+                                        <label class="form-label" asp-for="img">Percentage</label>
+                                        <div class="btn btn-primary btn-icon-text">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <input asp-for="img" type="file" value="Upload" />
+                                            <span asp-validation-for="img" class="text-danger"></span>
+                                        </div>
+                                        <span asp-validation-for="img" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <div class="form-group">
+                                        @if (Model.img1 == null || Model.img1 == "")
+                                        {
+                                            <img src="~/uploads/blank1.jpg" style="width:150px;height:100px;" alt="img">
+                                        }
+                                        else
+                                        {
+                                            <img src="@Model.img1" style="width:150px;height:100px;" alt="img">
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" style="margin-right:5px;" class="btn btn-primary "><i class="fa fa-edit" style="margin-right:0.7em"></i>Update</button>
+                            <a asp-action="index" class="btn btn-rounded btn-info float-right"><i class="fa fa-backward" style="margin-right:0.7em"></i>Back</a>
+
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+@*<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index">Product List</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit Product Registration</li>
+                </ol>
+            </nav><br /><br />
+
+
+
+                        <form name="form1" method="post" enctype="multipart/form-data" asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="sectorid"></label>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select name="sectorid" id="sectorid" asp-for="sectorid" class="form-control"
+                                            asp-items="@(new SelectList(ViewBag.SectorList,"id","name"))"
+                                            onchange="DoPostBack();">
+                                       
+                                        <option>--- Select  ---</option>
+                                    </select>
+                                    <span asp-validation-for="sectorid" class="text-danger"></span>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="businessid"></label>
+                                </div>
+                                <div class="form-group col-md-4">
+
+                                    <select name="businessid" id="businessid" asp-for="businessid" class="form-control"
+                                            asp-items="@ViewBag.business">
+                                        
+                                        <option>--- Select  ---</option>
+                                    </select>
+
+
+                                    <span asp-validation-for="businessid" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label asp-for="productName"></label>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input asp-for="productName" class="form-control" placeholder="Enter City Name.." />
+                                    <span asp-validation-for="productName" class="text-danger"></span>
+
+                                </div>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="form-group col-md-2">
+                                    <label asp-for="img"></label>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <div class="btn btn-primary btn-icon-text">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                        <input asp-for="img" type="file" value="Upload" />
+                                        <span asp-validation-for="img" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Save</button>
+                                <a asp-action="index" class="btn btn-rounded btn-success float-right"><i class="fas fa-caret-square-left" style="margin-right:0.7em"></i>Back</a>
+                                <br />
+                                <br />
+                                <br />
+
+                            </div>
+                        </form>
+        </div>
+    </div>
+</div>*@
+
+@*@section Scripts{
+        @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@
+<script src="~/lib/jquery/dist/jquery.js"></script>
+@*<script type="text/javascript">
+        function DoPostBack() {
+           // alert('df');
+            var select = document.getElementById("countryid");
+            var option = select.options[select.selectedIndex];
+            if (option.value != "Please select") {
+                document.form1.action = "/CityRegistration/EditGetStates";
+                document.form1.submit();
+            }
+        }
+    </script>*@
+
+ 
+<script type="text/javascript">
+    $(function() {
+        $("#sectorid").change(function () {
+
+            var url = '@Url.Content("~/")' + 'Admin/Product/getBusinessRegbySectorid';
+            var ddlsource = "#sectorid";
+            $.getJSON(url,
+                { sectorid: $(ddlsource).val() },
+                function (data) {
+                //   console.log(data);
+                    var item = '';
+                    $("#businessid").empty();
+                    $.each(data, function (i, row) {
+
+                        item += "<option value='" + row.value + "'>" + row.text + "  </option > ";
+                       // alert(row);
+                    });
+                    $("#businessid").html(item);
+                }
+            )
+        });
+    });
+    //function DoPostBack() {
+    //   // alert('df');
+    //    var select = document.getElementById("countryid");
+    //    var option = select.options[select.selectedIndex];
+    //    if (option.value != "Please select") {
+    //        document.form1.action = "/CityRegistration/GetStates";
+    //        document.form1.submit();
+    //    }
+    //}
+</script>

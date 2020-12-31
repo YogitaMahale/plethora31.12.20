@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<section class="sptb border-top">
+    <div class="container">
+        <div class="section-title center-block text-center">
+            <h2>Subscribe To Our Newsletter</h2>
+            <p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-xl-8 col-md-12 mx-auto d-block text-center">
+                <div class="input-group sub-input mt-0">
+                    <input id="txttext" type="text" class="form-control input-lg " placeholder="Enter your Email">
+                    <div class="input-group-append ">
+                        <button id="btnsubscribe" type="button" class="btn btn-secondary btn-lg br-tr-3 br-br-3 pl-5 pr-5">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#btnsubscribe").click(function () {
+
+            val1 = "5";
+            val2 = "2";
+             $.ajax({
+            type: "POST",
+                 url: "@Url.Action("Add","test1")",
+
+                 data: { email: $("#txttext").val()},
+            dataType: "text",
+            success: function (msg) {
+                console.log(msg);
+                $("#txttext").val("");
+                //alert($("#txttext").val());
+                alert("Save");
+            },
+            error: function (req, status, error) {
+                console.log(error);
+            }
+             });
+
+                //alert($("#lblScribeEmail").val());
+                @*$.ajax(
+                {
+                    type: "POST", //HTTP POST Method
+                        url: "~/Admin/Home/SubscribeDetails", // Controller/View
+                        //url: '@Url.Content("~/")' + 'Admin/Home/SubscribeDetails';
+                    data: { //Passing data
+                        id: 0, //Reading text box values using Jquery
+                        Email: "yogita"
+
+                    }
+
+                });*@
+
+            });
+    });
+</script>
+@*https://maketext.io/*@

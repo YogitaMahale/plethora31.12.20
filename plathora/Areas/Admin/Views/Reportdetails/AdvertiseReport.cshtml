@@ -1,0 +1,371 @@
+﻿@model plathora.pagination.collectionreport_affilatePagination<AdvertisecollectionReportSPModel>
+@*@model IEnumerable<orderHistoryReportViewModel>*@
+@{
+    ViewBag.Title = "Advertise Details";
+}
+
+    <div class="side-app">
+
+        @{
+            decimal amount = 0;
+        }
+
+
+
+
+
+        <div class="row">
+
+            <div class="col-md-12 col-lg-12">
+                <div class="card-header">
+                    <h3 class="card-title">@ViewBag.Title</h3>
+                </div>
+                <div class="card">
+                    @*<div style="text-align:right;padding-right: 20px;padding-left: 0px;padding-top: 10px;">
+                        <a class="btn btn-sm btn-primary float-md-right;" asp-action="Create"> Add New Tax</a>
+                    </div>*@
+
+
+
+                    @using (Html.BeginForm("AdvertiseReport", "Reportdetails", FormMethod.Post))
+                    {
+                        <table class="table">
+                            <tr>
+                                <td> <label style="width:70px;">From Date</label></td>
+                                <td>
+                                    <input style="width:120px;" type="text" id="datepicker1" autocomplete="off" class="form-control datepicker" value="@ViewBag.from1" name="from1">
+
+                                    @*<div style="width:120px;" class="input-group date" data-provide="datepicker">
+
+
+                                        <div class="input-group-addon">
+                <span class="glyphicon glyphicon-th"></span>
+            </div>
+                                    </div>*@
+                                </td>
+                                <td> <label style="width:50px;">To Date</label></td>
+                                <td>
+                                    <input  style="width:120px;" type="text" id="datepicker2" autocomplete="off" class="form-control datepicker" value="@ViewBag.to1" name="to1">
+                                </td>
+
+                                <td> <label style="width:100px;">Select Affilate</label></td>
+                                <td>@Html.DropDownList("deliveryboyid", (IEnumerable<SelectListItem>)ViewData["affilatelist"], new { @class = "form-control", style = "width:200px;" })</td>
+                                <td> <input type="submit" name="search" value="Search" class="btn btn-primary" /></td>
+                                <td> <input type="submit" name="ExcelFileDownload" value="Excel Download" class="btn btn-primary" /></td>
+
+                            </tr>
+                        </table>
+
+
+                    }
+
+                    <div class="card-body">
+                        <div class="table-responsive" style="overflow-x:scroll;">
+                            <table id="example2" class="hover table-bordered border-top-0 border-bottom-0">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Phone</th>
+                                        <th>Title</th>
+                                        <th>Date</th>
+                                        <th>Package</th>
+                                        <th>Package Amount</th>
+                                        <th>Commi(%)</th>
+                                        <th>GST(%)</th>
+                                        <th>GST Amount</th>
+                                        <th>Plethora </th>
+                                        <th>Commission</th>
+                                        <th>TDS</th>
+                                        <th>Total</th>
+
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+
+                                    <tr>
+                                        <td>@item.name</td>
+                                        <td>@item.PhoneNumber</td>
+                                        <td>@item.title</td>
+                                        <td>@item.createddate</td>
+                                        <td>@item.pkgname</td>
+                                        <td>@item.PackageAmount</td>
+                                        <td>@item.commissionper</td>
+                                        <td>@item.gst</td>
+                                        <td>@item.gstAmount</td>
+                                        <td>@item.plethoraamt </td>
+                                        <td>@item.commissionAmount</td>
+                                        <td>@item.tds</td>
+                                        <td>@item.PaymentAmount</td>
+
+
+                                    </tr>
+                                    }
+
+
+                                </tbody>
+                                @{
+                                    @foreach (var item in Model)
+                                    {
+                                        amount += item.PaymentAmount;
+                                    }
+                                }
+
+                                <tfoot>
+
+                                    <tr>
+
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th>  </th>
+                                        <th> </th>
+                                        <th> </th>
+                                        <th></th>
+                                        <th>@amount</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            @*<div class="col-md-12 table-responsive-md">
+
+                                <br />
+                                @{
+                                    var disablePrevious = !Model.IsPreviousAvailable ? "disabled" : "";
+                                    var disableNext = !Model.IsNextAvailable ? "disabled" : "";
+                                }
+
+                                <a asp-action="collectionReport"
+                                   asp-route-pageNumber="@(Model.PageIndex - 1)"
+                                   asp-route-from1="@ViewBag.from1"
+                                   asp-route-to1="@ViewBag.to1"
+                                   asp-route-deliveryboyid="@ViewBag.deliveryboyid1"
+                                   class="btn btn-primary @disablePrevious">
+                                    Previous
+                                </a>
+                                <a asp-action="collectionReport"
+                                   asp-route-pageNumber="@(Model.PageIndex + 1)"
+                                   asp-route-from1="@ViewBag.from1"
+                                   asp-route-to1="@ViewBag.to1"
+                                   asp-route-deliveryboyid="@ViewBag.deliveryboyid1"
+                                   class="btn btn-primary @disableNext">
+                                    Next
+                                </a>
+
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@*<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+
+
+            <div class="card-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Advertise Details</li>
+                    </ol>
+                </nav><br />
+                @using (Html.BeginForm("AdvertiseReport", "Reportdetails", FormMethod.Post))
+                {
+
+                    <div class="row">
+                        <div class="form-group col-md-1">
+                            <label>From Date</label>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <div class="input-group date" data-provide="datepicker">
+                                
+                                <input type="text" id="datepicker1" autocomplete="off" class="form-control datepicker" value="@ViewBag.from1" name="from1">
+
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form-group col-md-1">
+                            <label>To Date</label>
+                        </div>
+                        <div class="form-group col-md-2">
+                            
+                            <input type="text" id="datepicker2" autocomplete="off" class="form-control datepicker" value="@ViewBag.to1" name="to1">
+                           
+                        </div>
+
+                        <div class="form-group col-md-1">
+                            <label>Select Affilate</label>
+                        </div>
+                        <div class="form-group col-md-2">
+                            
+                            @Html.DropDownList("deliveryboyid", (IEnumerable<SelectListItem>)ViewData["affilatelist"], new { @class = "form-control" })
+                        </div>
+
+
+
+                    </div>
+                    <div class="row" style="text-align:center;">
+                        <div class="form-group col-md-4">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="submit" name="search" value="Search" class="btn btn-primary" />
+                            <input   type="submit" name="ExcelFileDownload" value="Excel Download" class="btn btn-primary" />
+                        </div>
+                        <div class="form-group col-md-4">
+                        </div>
+                    </div>
+                }
+                @{
+                    decimal amount = 0;
+                }
+            <div class="row">
+                <b>  <h4>@ViewBag.message</h4> </b>
+                <div class="col-md-12 table-responsive-md" style="overflow-x: scroll;">
+                    <table class="table table-bordered tblShow ">
+                        <thead>
+                            <tr>
+                                
+                                <th>Name</th>
+                                <th>Phone</th>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>Package</th>
+                                <th>Package Amount</th>
+                                <th>Commi(%)</th>
+                                <th>GST(%)</th>
+                                <th>GST Amount</th>
+                                <th>Plethora </th>
+                                <th>Commission</th>
+                                <th>TDS</th>
+                                <th>Total</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+
+                            <tr>
+                                <td>@item.name</td>
+                                <td>@item.PhoneNumber</td>
+                                <td>@item.title</td>
+                                <td>@item.createddate</td>
+                                <td>@item.pkgname</td>
+                                <td>@item.PackageAmount</td>
+                                <td>@item.commissionper</td>
+                                <td>@item.gst</td>
+                                <td>@item.gstAmount</td>
+                                <td>@item.plethoraamt </td>
+                                <td>@item.commissionAmount</td>
+                                <td>@item.tds</td>
+                                <td>@item.PaymentAmount</td>
+
+                            </tr>
+
+                            }
+                        </tbody>
+                        @{
+                            @foreach (var item in Model)
+                            {
+                                amount += item.PaymentAmount;
+                            }
+                        }
+
+                    <tr>
+                        
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>  </th>
+                        <th> </th>
+                        <th> </th>
+                        <th></th>
+                        <th>@amount</th>
+                         
+                    </tr>
+
+                    </table>
+                </div>
+
+                <div class="col-md-12 table-responsive-md">
+                    
+                    @{
+                        var disablePrevious = !Model.IsPreviousAvailable ? "disabled" : "";
+                        var disableNext = !Model.IsNextAvailable ? "disabled" : "";
+                    }
+
+                    <a asp-action="AdvertiseReport"
+                       asp-route-pageNumber="@(Model.PageIndex - 1)"
+                       asp-route-from1="@ViewBag.from1"
+                       asp-route-to1="@ViewBag.to1"
+                       asp-route-deliveryboyid="@ViewBag.deliveryboyid1"
+                       class="btn btn-primary @disablePrevious">
+                        Previous
+                    </a>
+                    <a asp-action="AdvertiseReport"
+                       asp-route-pageNumber="@(Model.PageIndex + 1)"
+                       asp-route-from1="@ViewBag.from1"
+                       asp-route-to1="@ViewBag.to1"
+                       asp-route-deliveryboyid="@ViewBag.deliveryboyid1"
+                       class="btn btn-primary @disableNext">
+                        Next
+                    </a>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+@*<script>
+        //$('.abc').datepicker({
+        //    autoclose: true,
+        //    format: 'dd/mm/yyyy'
+        //});
+        $('#datepicker2').datepicker({
+            autoclose: true,
+            format: 'dd/mm/yyyy'
+        });
+
+
+    </script>*@
+
+@*<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>*@
+<script>
+    $(function () {
+        //$("#datepicker1").datepicker({
+        //    autoclose: true,
+        //        format: 'dd/mm/yyyy'
+        //});
+        //$("#datepicker2").datepicker({
+        //    autoclose: true,
+        //    format: 'dd/mm/yyyy'
+        //});
+        $(".datepicker").datepicker({
+            autoclose: true,
+            dateFormat: 'dd/mm/yy'
+        });
+    });
+</script>

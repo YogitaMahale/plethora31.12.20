@@ -1,0 +1,36 @@
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.deps.json
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csprojAssemblyReference.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfo.cs
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\plathora final\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.pdb
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.deps.json
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.dll
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.pdb
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csprojAssemblyReference.cache
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfoInputs.cache
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfo.cs
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csproj.CoreCompileInputs.cache
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.dll
+G:\plathora 12.12.20\14.12.20\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.deps.json
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfo.cs
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csprojAssemblyReference.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.deps.json
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\bin\Debug\netcoreapp3.1\plathora.Utility.pdb
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csprojAssemblyReference.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.csproj.CoreCompileInputs.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfoInputs.cache
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.AssemblyInfo.cs
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.dll
+E:\yogita 6.8.19\asp.net core\Final backup 4.9.20\plathoraNewDomain\15.12.20\multiple business add\plathora\plathora\plathora.Utility\obj\Debug\netcoreapp3.1\plathora.Utility.pdb
