@@ -1,0 +1,87 @@
+﻿@model IEnumerable<referfriendIndexViewModel>
+@{
+    ViewBag.Title = "Reference Slider Image List";
+}
+
+    <div class="side-app">
+        @*<div class="page-header">
+            <h4 class="page-title">Tax</h4>
+            <ol class="breadcrumb">
+
+            </ol>
+        </div>*@
+        <div class="row">
+
+            <div class="col-md-12 col-lg-12">
+                <div class="card-header">
+                    <h3 class="card-title">@ViewBag.Title</h3>
+                </div>
+                <div class="card">
+                    <div style="text-align:right;padding-right: 20px;padding-left: 0px;padding-top: 10px;">
+                        <a class="btn btn-sm btn-primary float-md-right;" asp-action="Create"> Add New Image</a>
+                    </div>
+
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="example2" class="hover table-bordered border-top-0 border-bottom-0">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                         
+                                        <th class="text-warning">Actions</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+
+                                    <tr>
+                                        <td>
+                                            @if (item.name == null || item.name.Trim() == "")
+                                            {
+                                            <img src="~/uploads/blank1.jpg" style="width: 200px;height: 100px;" alt="img">
+                                            }
+                                            else
+                                            {<img alt="image" style="width: 200px;height: 100px;" src="@Url.Content(item.name)" />
+
+
+                                            }
+
+                                        </td>
+
+                                        <td>
+                                            <a class="btn btn-primary btn-sm mb-1" data-toggle="tooltip" data-original-title="View" asp-action="Edit" asp-route-id="@item.id">  <i class="fa fa-edit"></i> </a>
+                                            <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete" asp-action="Delete" asp-route-id="@item.id"><i class="fa fa-trash-o"></i></a><br>
+
+                                            @*<a class="text-success" asp-action="Edit" asp-route-id="@item.id">
+                <i class="fas fa-edit"></i> Edit
+            </a>
+
+            <a class="text-danger" asp-action="Delete" asp-route-id="@item.id">
+                <i class="far fa-trash-alt"></i> Delete
+            </a>*@
+                                        </td>
+                                    </tr>
+                                    }
+
+
+                                </tbody>
+                                @*<tfoot>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Percentage</th>
+                                        <th class="text-warning">Actions</th>
+                                    </tr>
+                                </tfoot>*@
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+<script src="~/lib/jquery/dist/jquery.js"></script>

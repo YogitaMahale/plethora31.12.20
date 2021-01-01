@@ -463,6 +463,13 @@ namespace plathora.API
                     }
                     else
                     {
+
+
+                        //commission calculateion
+                        var parameter = new DynamicParameters();
+                        parameter.Add("@id", postid);
+                        _sP_Call.Execute("LevelWiseCommissionAdvertise", parameter);
+
                         var customer1 = _advertisementInfoServices.GetById(id);
                         return Ok(customer1);
                     }

@@ -487,6 +487,29 @@ namespace plathora.Areas.Admin.Controllers
         }
 
 
+        //-----------------------------------------------
+
+        [HttpGet]
+        public async Task<IActionResult> Commission(int? PageNumber)
+        {
+
+ 
+            var paramter = new DynamicParameters();
+
+            
+            ///paramter.Add("@from", l1);
+             
+            var orderheaderList1 = _sP_Call.List<commissionShowViewModel>("commiossionReportSP", null);
+
+            //  return View(orderheaderList1.ToList());
+            int PageSize = 10;
+
+
+
+            return View(collectionreport_affilatePagination<commissionShowViewModel>.Create(orderheaderList1.ToList(), PageNumber ?? 1, PageSize));
+
+
+        }
 
     }
 }

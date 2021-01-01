@@ -238,7 +238,14 @@ namespace plathora.API
                         }
                         else
                         {
-                            var customer1 = _BusinessOwnerRegiServices.GetById(id);                           
+
+                                //commission calculateion
+                              var parameter = new DynamicParameters();
+                              parameter.Add("@id", postid);
+                             _sP_Call.Execute("LevelWiseCommissionBusinessReg", parameter);
+
+
+                    var customer1 = _BusinessOwnerRegiServices.GetById(id);                           
                             string obj11 = "{\"success\" : 1, \"message\" : \" Data\", \"data\" :" + customer1.id + "}";
                             return Ok(obj11);
                         }

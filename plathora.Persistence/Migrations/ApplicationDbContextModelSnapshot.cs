@@ -1544,7 +1544,7 @@ namespace plathora.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("commissionAmount")
-                        .HasColumnType("decimal(18, 2)");
+                        .HasColumnType("decimal(18,3)");
 
                     b.Property<DateTime>("createddate")
                         .HasColumnType("datetime2");

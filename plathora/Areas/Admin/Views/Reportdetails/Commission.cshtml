@@ -1,0 +1,163 @@
+﻿@model plathora.pagination.collectionreport_affilatePagination<commissionShowViewModel>
+@*@model IEnumerable<orderHistoryReportViewModel>*@
+@{
+    ViewBag.Title = "Commission Details";
+}
+
+<div class="side-app">
+
+    @{
+        decimal amount = 0;
+    }
+
+
+
+
+
+    <div class="row">
+
+        <div class="col-md-12 col-lg-12">
+            <div class="card-header">
+                <h3 class="card-title">@ViewBag.Title</h3>
+            </div>
+            <div class="card">
+                @*<div style="text-align:right;padding-right: 20px;padding-left: 0px;padding-top: 10px;">
+                        <a class="btn btn-sm btn-primary float-md-right;" asp-action="Create"> Add New Tax</a>
+                    </div>*@
+
+
+
+                @*@using (Html.BeginForm("commissionShowViewModel", "Reportdetails", FormMethod.Post))
+                {
+                    <table class="table">
+                        <tr>
+                            <td> <label>From Date</label></td>
+                            <td>
+                                <div class="input-group date" data-provide="datepicker">
+
+                                    <input type="text" id="datepicker1" autocomplete="off" class="form-control datepicker" value="@ViewBag.from1" name="from1">
+
+                                   
+                                </div>
+                            </td>
+                            <td> <label>To Date</label></td>
+                            <td>
+                                <input type="text" id="datepicker2" autocomplete="off" class="form-control datepicker" value="@ViewBag.to1" name="to1">
+                            </td>
+
+                            <td> <label>Select Affilate</label></td>
+                            <td>@Html.DropDownList("deliveryboyid", (IEnumerable<SelectListItem>)ViewData["affilatelist"], new { @class = "form-control" })</td>
+                            <td> <input type="submit" name="search" value="Search" class="btn btn-primary" /></td>
+                            <td> <input type="submit" name="ExcelFileDownload" value="Excel Download" class="btn btn-primary" /></td>
+
+                        </tr>
+                    </table>
+
+
+                }*@
+
+                <div class="card-body">
+                    <div class="table-responsive" style="overflow-x:scroll;">
+                        <table id="example2" class="hover table-bordered border-top-0 border-bottom-0">
+                            <thead>
+                                <tr>
+                                    <th>First</th>
+                                    <th>Middle</th>
+                                    <th>Last</th>
+                                    <th>UniqueId</th>
+                                    <th>Package</th>
+                                     
+                                    <th>Commission Amount</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model)
+                                {
+
+                                    <tr>
+                                        <td>@item.name</td>
+                                        <td>@item.MiddleName</td>
+                                        <td>@item.LastName</td>
+                                        <td>@item.uniqueId</td>
+                                        <td>@item.membershipName</td>
+                                        <td>@item.commissionAmount</td>
+                                       
+                                    </tr>
+                                }
+
+
+                            </tbody>
+                            @*@{
+                                @foreach (var item in Model)
+                                {
+                                    amount += item.PaymentAmount;
+                                }
+                            }*@
+
+                            <tfoot>
+
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+
+                                    <th></th>
+
+
+                                </tr>
+                            </tfoot>
+                        </table>
+                        @*<div class="col-md-12 table-responsive-md">
+
+                                <br />
+                                @{
+                                    var disablePrevious = !Model.IsPreviousAvailable ? "disabled" : "";
+                                    var disableNext = !Model.IsNextAvailable ? "disabled" : "";
+                                }
+
+                                <a asp-action="collectionReport"
+                                   asp-route-pageNumber="@(Model.PageIndex - 1)"
+                                   asp-route-from1="@ViewBag.from1"
+                                   asp-route-to1="@ViewBag.to1"
+                                   asp-route-deliveryboyid="@ViewBag.deliveryboyid1"
+                                   class="btn btn-primary @disablePrevious">
+                                    Previous
+                                </a>
+                                <a asp-action="collectionReport"
+                                   asp-route-pageNumber="@(Model.PageIndex + 1)"
+                                   asp-route-from1="@ViewBag.from1"
+                                   asp-route-to1="@ViewBag.to1"
+                                   asp-route-deliveryboyid="@ViewBag.deliveryboyid1"
+                                   class="btn btn-primary @disableNext">
+                                    Next
+                                </a>
+
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+
+
+<script>
+    $(function () {
+
+
+        $(".datepicker").datepicker({
+            autoclose: true,
+            dateFormat: 'dd/mm/yy'
+        });
+    });
+</script>

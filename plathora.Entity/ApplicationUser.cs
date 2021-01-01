@@ -102,7 +102,7 @@ namespace plathora.Entity
         public DateTime logintime { get; set; }
 
 
-        [Column(TypeName = "decimal(18, 2)")]
+        [Column(TypeName = "decimal(18,3)")]
         public decimal commissionAmount { get; set; } = 0;
 
     }

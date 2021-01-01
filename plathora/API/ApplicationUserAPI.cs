@@ -352,7 +352,7 @@ namespace plathora.API
             //string password = "vsys@2017";
             bool send = false;
             MailMessage mail = new MailMessage();
-            mail.To.Add("mahaleyogita233@gmail.com");
+            //mail.To.Add("mahaleyogita233@gmail.com");
             mail.To.Add("support@easebuzz.com");
             mail.From = new MailAddress(email, "Label ID Creation");
             mail.Subject = "Label Creation";
@@ -797,6 +797,12 @@ namespace plathora.API
                     if (result.Succeeded)
                     {
 
+
+                        var parameter = new DynamicParameters();
+                        parameter.Add("@uniqueId", affilatereg.uniqueId);
+
+                       _sP_Call.Execute("LevelWiseCommissionRegistration", parameter);
+                        //-----------------
                         if (model.usertype.ToUpper().Trim() == "AFFILATE".Trim())
                         {
                             
@@ -804,8 +810,8 @@ namespace plathora.API
                             //string pkgname = _MembershipServices.GetById(membershipid).membershipName;
                             string name = model.FirstName + " " + model.MiddleName + " " + model.LastName;
                             SendMail(name, model.emailid1,model.password, affilatereg.uniqueId,affilatereg.PhoneNumber);
-                            //string Name, string bankname, string accountname,string accountno, string uniqueId, string pancardphoto,string passbookphoto)
-                            SendMailToEasebuzz(name, model.bankname, model.accountname, affilatereg.accountno, affilatereg.uniqueId, affilatereg.pancardphoto,affilatereg.passbookphoto);
+                           
+                           // SendMailToEasebuzz(name, model.bankname, model.accountname, affilatereg.accountno, affilatereg.uniqueId, affilatereg.pancardphoto,affilatereg.passbookphoto);
                         }
                         return Ok(affilatereg);
                     }
