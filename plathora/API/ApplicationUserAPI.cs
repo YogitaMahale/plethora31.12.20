@@ -537,7 +537,12 @@ namespace plathora.API
 
             var checkduplicate = _db.applicationUsers.Where(x => x.PhoneNumber == model.mobileno1).FirstOrDefault();
             string affilateID = "";
-            if (model.registerbyAffilateID == null)
+
+            if (model.registerbyAffilateID != null)
+            {
+                affilateID = model.registerbyAffilateID;
+            }
+            else
             {
                 var parameter = new DynamicParameters();
                 //parameter.Add("@businessid", businessid);
@@ -550,13 +555,28 @@ namespace plathora.API
                 {
                     affilateID = obj.id;
                 }
+            }
+
+            //    if (model.registerbyAffilateID.Trim().Length==0)
+            //{
+            //    var parameter = new DynamicParameters();
+            //    //parameter.Add("@businessid", businessid);
+            //    var obj = _sP_Call.OneRecord<getAffilateIdViewModel>("getAffilateId", null);
+            //    if (obj == null)
+            //    {
+
+            //    }
+            //    else
+            //    {
+            //        affilateID = obj.id;
+            //    }
 
 
-            }
-            else
-            {
-                affilateID = model.registerbyAffilateID;
-            }
+            //}
+            //else
+            //{
+            //    affilateID = model.registerbyAffilateID;
+            //}
 
             if (checkduplicate == null)
             {

@@ -24,7 +24,7 @@ using plathora.Services;
 using plathora.Services.Implementation;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
- 
+using Dapper;
 
 namespace CoreMoryatools.Areas.Admin.Controllers
 {
@@ -42,11 +42,12 @@ namespace CoreMoryatools.Areas.Admin.Controllers
         private readonly ICityRegistrationservices _CityRegistrationservices;
         private readonly IAffilatePackageServices _AffilatePackageServices;
         private readonly UserManager<IdentityUser> _userManager;
-
+        private readonly ISP_Call _sP_Call;
         private readonly ApplicationDbContext _db;
         //private readonly UserManager<ApplicationUser> _usermanager;
-        public UserController(ApplicationDbContext db, IMembershipServices MembershipServices, ICountryRegistrationservices CountryRegistrationservices, ICityRegistrationservices CityRegistrationservices, IAffilatePackageServices AffilatePackageServices, IStateRegistrationService StateRegistrationService, IWebHostEnvironment hostingEnvironment, UserManager<IdentityUser> userManager)
+        public UserController(ISP_Call sP_Call,ApplicationDbContext db, IMembershipServices MembershipServices, ICountryRegistrationservices CountryRegistrationservices, ICityRegistrationservices CityRegistrationservices, IAffilatePackageServices AffilatePackageServices, IStateRegistrationService StateRegistrationService, IWebHostEnvironment hostingEnvironment, UserManager<IdentityUser> userManager)
         {
+            _sP_Call = sP_Call;
             _db = db;
             _MembershipServices = MembershipServices;
             _CountryRegistrationservices = CountryRegistrationservices;
@@ -57,18 +58,22 @@ namespace CoreMoryatools.Areas.Admin.Controllers
             _userManager = userManager;
             //_usermanager = usermanager;
         }
-        public IActionResult Index()
+        public IActionResult Index(string type="")
         {
+            TempData["type"] = type;
+            TempData.Keep("type");
             return View();
         }
+
+       
 
         [HttpGet]
         public IActionResult Edit(string id)
         {
             var objfromdb = _db.applicationUsers.FirstOrDefault(u => u.Id == id);
-           // ViewBag.Countries = _CountryRegistrationservices.GetAllCountry();
+            ViewBag.Countries = _CountryRegistrationservices.GetAllCountry();
             ViewBag.membershiplist = _MembershipServices.GetAll().ToList();
-           // int countryiddd = 0, stateid = 0, countryid = 0;
+            int countryiddd = 0, stateid = 0, countryid = 0;
 
 
             //get role name
@@ -79,12 +84,13 @@ namespace CoreMoryatools.Areas.Admin.Controllers
 
 
 
-            //if (objfromdb.cityid != null)
-            //{
-            //    countryiddd = (int)objfromdb.cityid;
-            //    stateid = _CityRegistrationservices.GetById(countryiddd).stateid;
-            //    countryid = _StateRegistrationService.GetById(stateid).countryid;
-            //}
+            if (objfromdb.cityid != null)
+            {
+                int cityiddd=(int)objfromdb.cityid;
+                //  countryiddd = (int)objfromdb.cityid;
+                stateid = _CityRegistrationservices.GetById(cityiddd).stateid;
+                countryid = _StateRegistrationService.GetById(stateid).countryid;
+            }
 
             if (objfromdb == null)
             {
@@ -107,19 +113,21 @@ namespace CoreMoryatools.Areas.Admin.Controllers
                 pancardphoto1 = objfromdb.pancardphoto,
                 gender = objfromdb.gender,
                 DOB = objfromdb.DOB,
-               // house = objfromdb.house,
-               //landmark = objfromdb.landmark,
-               //street = objfromdb.street,
-               // countryid = countryiddd,
-               // stateid = stateid,
-               //cityid = objfromdb.cityid,
-               // zipcode = objfromdb.zipcode,
-               //latitude = objfromdb.latitude,
-              //  longitude = objfromdb.longitude,
-               // companyName = objfromdb.companyName,
-               // designation = objfromdb.designation,
-              //  gstno = objfromdb.gstno,
-              //  Website = objfromdb.Website,
+                house = objfromdb.house,
+                landmark = objfromdb.landmark,
+                street = objfromdb.street,
+                  
+                countryid = countryid,
+                stateid = stateid,
+                cityid = objfromdb.cityid,
+                zipcode = objfromdb.zipcode,
+                
+                //latitude = objfromdb.latitude,
+                //  longitude = objfromdb.longitude,
+                // companyName = objfromdb.companyName,
+                // designation = objfromdb.designation,
+                //  gstno = objfromdb.gstno,
+                //  Website = objfromdb.Website,
                 bankname = objfromdb.bankname,
                 accountname = objfromdb.accountname,
                 accountno = objfromdb.accountno,
@@ -131,8 +139,8 @@ namespace CoreMoryatools.Areas.Admin.Controllers
                 rolename = rolname
 
             };
-          //  ViewBag.States = _StateRegistrationService.GetAllState(countryid);
-            //ViewBag.Cities = _CityRegistrationservices.GetAllCity(stateid);
+            ViewBag.States = _StateRegistrationService.GetAllState(countryid);
+            ViewBag.Cities = _CityRegistrationservices.GetAllCity(stateid);
             return View(model);
 
         }
@@ -169,10 +177,11 @@ namespace CoreMoryatools.Areas.Admin.Controllers
                 affilatereg.gender = model.gender;
                 affilatereg.DOB = model.DOB;
                 //   affilatereg.createddate = model.createddate;
-                //affilatereg.house = model.house;
-                //affilatereg.landmark = model.landmark;
-                //affilatereg.street = model.street;
-                //affilatereg.cityid = model.cityid;
+                affilatereg.house = model.house;
+                affilatereg.landmark = model.landmark;
+                affilatereg.street = model.street;
+                affilatereg.zipcode  = model.zipcode;
+                affilatereg.cityid = model.cityid;
                 //affilatereg.companyName = model.companyName;
                 //affilatereg.designation = model.designation;
                 //affilatereg.gstno = model.gstno;
@@ -187,6 +196,7 @@ namespace CoreMoryatools.Areas.Admin.Controllers
                 //affilatereg.amount = model.amount;
 
 
+                 
                 if (model.profilephoto != null && model.profilephoto.Length > 0)
                 {
                     var uploadDir = @"uploads/user/profilephoto";
@@ -310,7 +320,21 @@ namespace CoreMoryatools.Areas.Admin.Controllers
             }
             else
             {
-                return View();
+                ViewBag.Countries = _CountryRegistrationservices.GetAllCountry();
+                ViewBag.membershiplist = _MembershipServices.GetAll().ToList();
+                int countryiddd = 0, stateid = 0, countryid = 0;
+
+
+            
+                if (model.cityid != null)
+                {
+                    countryiddd = (int)model.cityid;
+                    stateid = _CityRegistrationservices.GetById(countryiddd).stateid;
+                    countryid = _StateRegistrationService.GetById(stateid).countryid;
+                }
+                ViewBag.States = _StateRegistrationService.GetAllState(countryid);
+                ViewBag.Cities = _CityRegistrationservices.GetAllCity(stateid);
+                return View(model);
             }
 
         }
@@ -319,27 +343,26 @@ namespace CoreMoryatools.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetALL()
         {
+            string type = TempData["type"].ToString();
+            //var paramter = new DynamicParameters();
+            //paramter.Add("@type", type);
 
-            //var userList = _db.ApplicationUser.Include(u => u.company).ToList();
+            //IEnumerable<dashboardCustomerList> obj = _sP_Call.List<dashboardCustomerList>("TodayRegisterCustomer", null);
+
+
+
             var userList = _db.applicationUsers.ToList();
             var userRole = _db.UserRoles.ToList();
             var Roles = _db.Roles.ToList();
-            foreach(var user in userList)
+            foreach (var user in userList)
             {
                 var roleId = userRole.FirstOrDefault(u => u.UserId == user.Id).RoleId;
                 user.Role = Roles.FirstOrDefault(u => u.Id == roleId).Name;
-                //if(user.company==null)
-                //{
-                //    user.company = new company()
-                //    {
-                //        Name = ""
-                //    };
-                //}
+
 
             }
-            return Json(new { data = userList });
-            //var obj = _unitofWork.category.GetAll();
-            //return Json(new { data = obj });
+            return Json(new { data = userList }) ;
+            
         }
 
       

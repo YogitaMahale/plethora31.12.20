@@ -17,6 +17,6 @@ namespace plathora.Models
         public string profilephoto { get; set; }
         public string uniqueId { get; set; }
 
-       
+        public bool loginStatus { get; set; } = false;
     }
 }

@@ -46,7 +46,7 @@ namespace plathora.Services.Implementation
         {
             Random generator = new Random();
             int r = generator.Next(100000, 1000000);
-            string uniqueId = name + r;
+            string uniqueId = name.ToString().ToUpper().Trim() + r;
 
             var userList = _context.applicationUsers.Where(x => x.uniqueId == uniqueId).ToList();
             if (userList == null || userList.Count == 0)
@@ -58,7 +58,7 @@ namespace plathora.Services.Implementation
                 generateRandomNo(name);
             }
 
-            return uniqueId;
+            return uniqueId.Trim();
         }
 
 

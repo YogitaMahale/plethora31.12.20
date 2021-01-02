@@ -39,43 +39,52 @@ namespace plathora.Models
         public string Email { get; set; }
         [Display(Name = "Email Id2")]
         public string emailid2 { get; set; }
-        
+        [Display(Name = "Adharcard No")]
         public string adharcardno { get; set; }
+       
         public string adharcardphoto1 { get; set; }
+        [Display(Name = "Adharcard Photo")]
         public IFormFile adharcardphoto { get; set; }
-
+         [Display(Name = "Adharcard Photo")]
         public string pancardno { get; set; }
         public string pancardphoto1 { get; set; }
+
+        [Display(Name = "Pancard Photo")]
         public IFormFile pancardphoto { get; set; }
 
         [Required]
+        [Display(Name = "Gender")]
         public string gender { get; set; }
-
+        [Display(Name = "Date of Birth")]
         public DateTime DOB { get; set; }
 
 
-      
+
 
 
         //-------- address info
-        //public string house { get; set; }
-        //public string landmark { get; set; }
-        //public string street { get; set; }
+        [Display(Name = "House")]
+        public string house { get; set; }
+        [Display(Name = "Landmark")]
+        public string landmark { get; set; }
+        [Display(Name = "Street")]
+        public string street { get; set; }
 
-        //[Required]
-        //[Display(Name = "Country")]
-        //public int countryid { get; set; }
-        //[Required]
-        //[Display(Name = "State")]
-        //public int stateid { get; set; }
-        //[Required]
-        //[Display(Name = "City")]        
-        //public int? cityid { get; set; }
-       
+        [Required]
+         
+        [Display(Name = "Country")]
+        public int countryid { get; set; }
+        [Required]
+        [Display(Name = "State")]
+        public int stateid { get; set; }
+        [Required]
+        [Display(Name = "City")]
+        public int? cityid { get; set; }
 
 
 
-        //public string zipcode { get; set; }
+        [Display(Name = "Zipcode")]
+        public string zipcode { get; set; }
         //public string latitude { get; set; }
         //public string longitude { get; set; }
 
@@ -85,11 +94,17 @@ namespace plathora.Models
         //public string gstno { get; set; }
         //public string Website { get; set; }
         //--------bank info---
+        [Display(Name = "Bank Name")]
         public string bankname { get; set; }
+        [Display(Name = "Account Name")]
         public string accountname { get; set; }
+        [Display(Name = "Account No")]
         public string accountno { get; set; }
+        [Display(Name = "IFSC Code")]
         public string ifsccode { get; set; }
+        [Display(Name = "Branch")]
         public string branch { get; set; }
+        [Display(Name = "Passbook Photo")]
         public IFormFile passbookphoto { get; set; }
         public string  passbookphoto1 { get; set; }
         ////----affliate membership
