@@ -344,24 +344,24 @@ namespace CoreMoryatools.Areas.Admin.Controllers
         public IActionResult GetALL()
         {
             string type = TempData["type"].ToString();
-            //var paramter = new DynamicParameters();
-            //paramter.Add("@type", type);
+            var paramter = new DynamicParameters();
+            paramter.Add("@type", type);
 
-            //IEnumerable<dashboardCustomerList> obj = _sP_Call.List<dashboardCustomerList>("TodayRegisterCustomer", null);
-
-
-
-            var userList = _db.applicationUsers.ToList();
-            var userRole = _db.UserRoles.ToList();
-            var Roles = _db.Roles.ToList();
-            foreach (var user in userList)
-            {
-                var roleId = userRole.FirstOrDefault(u => u.UserId == user.Id).RoleId;
-                user.Role = Roles.FirstOrDefault(u => u.Id == roleId).Name;
+            IEnumerable<dashboardCustomerList> obj = _sP_Call.List<dashboardCustomerList>("RegisterUserbyType", paramter);
 
 
-            }
-            return Json(new { data = userList }) ;
+
+            //var userList = _db.applicationUsers.ToList();
+            //var userRole = _db.UserRoles.ToList();
+            //var Roles = _db.Roles.ToList();
+            //foreach (var user in userList)
+            //{
+            //    var roleId = userRole.FirstOrDefault(u => u.UserId == user.Id).RoleId;
+            //    user.Role = Roles.FirstOrDefault(u => u.Id == roleId).Name;
+
+
+            //}
+            return Json(new { data = obj.ToList() }) ;
             
         }
 

@@ -4824,6 +4824,7 @@ E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Vie
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BankRegistration\Create.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BankRegistration\Edit.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BankRegistration\Index.cshtml.g.cs
+E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessDetails\Index.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessOwner\Create.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessOwner\Edit.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessOwner\Index.cshtml.g.cs
@@ -4994,3 +4995,4 @@ E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\staticwebassets\plath
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.dll
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.pdb
 E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\plathora.genruntimeconfig.cache
+E:\yogita 6.8.19\plathora\plathora\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessDetails\Edit.cshtml.g.cs

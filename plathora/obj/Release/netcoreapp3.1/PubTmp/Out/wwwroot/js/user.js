@@ -18,7 +18,7 @@ function loadtable() {
             { "data": "email", "width": "10%" },
             { "data": "phoneNumber", "width": "10%" },
             { "data": "uniqueId", "width": "10%" },
-            { "data": "role", "width": "10%" },
+            //{ "data": "role", "width": "10%" },
             //{ "data": "loginStatus", "width": "10%" },
             //---------------------
             {

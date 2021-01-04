@@ -1,6 +1,20 @@
 ﻿
 @{
-    ViewData["Title"] = "User Details";
+    string s = TempData["type"].ToString();
+    if (s== "Customer")
+    {
+        ViewData["Title"] = "User Details";
+    }
+    else if(s == "Affilate")
+    {
+        ViewData["Title"] = "Affilate Details";
+    }
+    else
+    {
+        ViewData["Title"] = "";
+    }
+
+
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div class="side-app">

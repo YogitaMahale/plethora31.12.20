@@ -602,6 +602,9 @@ namespace plathora.Persistence.Migrations
                     b.Property<string>("instagramLink")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("isdeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("landmark")
                         .HasColumnType("nvarchar(max)");
 
@@ -986,6 +989,21 @@ namespace plathora.Persistence.Migrations
                     b.HasKey("id");
 
                     b.ToTable("PackageRegistration");
+                });
+
+            modelBuilder.Entity("plathora.Entity.PassiveCommission", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<decimal>("CommissionPer")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("PassiveCommission");
                 });
 
             modelBuilder.Entity("plathora.Entity.ProductMaster", b =>

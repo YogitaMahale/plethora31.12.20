@@ -4409,3 +4409,5 @@ E:\yogita 6.8.19\plathora\plathora\obj\Release\netcoreapp3.1\Razor\Areas\Admin\V
 E:\yogita 6.8.19\plathora\plathora\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\referfriend\Edit.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\referfriend\Index.cshtml.g.cs
 E:\yogita 6.8.19\plathora\plathora\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Reportdetails\Commission.cshtml.g.cs
+E:\yogita 6.8.19\plathora\plathora\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessDetails\Index.cshtml.g.cs
+E:\yogita 6.8.19\plathora\plathora\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\BusinessDetails\Edit.cshtml.g.cs

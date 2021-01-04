@@ -52,6 +52,7 @@ namespace plathora.Persistence
         public DbSet<News> News { get; set; }
         public DbSet<dashboardTable> dashboardTable { get; set; }
         public DbSet<referfriendSlider> referfriendSlider { get; set; }
+        public DbSet<PassiveCommission> PassiveCommission { get; set; }
         //public DbSet<Advadd-migrationertisementDetails> advertisementDetails { get; set; }
         //public DbSet<advertisementtest> advertisementtest { get; set; }
 

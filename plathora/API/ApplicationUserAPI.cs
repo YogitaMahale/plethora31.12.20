@@ -1170,7 +1170,7 @@ namespace plathora.API
 
 
                 string myJson = "{\"Message\": " + "\"Please check your email to reset your password.\"" + "}";
-                return BadRequest(myJson);
+                return Ok(myJson);
             }
             catch (Exception obj)
             {

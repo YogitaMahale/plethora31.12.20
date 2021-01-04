@@ -112,6 +112,8 @@ namespace plathora.Entity
 
         public string registerbyAffilateUniqueId { get; set; }
         public string organization { get; set; }
+        [DefaultValue("false")]
+        public Boolean isdeleted { get; set; }
     }
 }
 
